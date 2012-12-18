@@ -14,3 +14,5 @@ noremap  <Up> ""
 noremap  <Down> ""
 noremap  <Left> ""
 noremap  <Right> ""
+
+set pastetoggle=<F2>
