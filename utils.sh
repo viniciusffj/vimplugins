@@ -13,5 +13,5 @@ fd() {
 }
 
 vv() {
-	$@ | vim -R -
+	eval "$@" | vim -R -
 }
