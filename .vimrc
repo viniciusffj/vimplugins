@@ -1,11 +1,13 @@
 syntax enable
 
+set background=dark
+colorscheme solarized
+
 set t_Co=256
 set number
 set hlsearch
 set incsearch
 set autoindent
-set background=dark
 set ignorecase
 
 set cursorline
