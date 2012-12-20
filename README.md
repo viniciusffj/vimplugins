@@ -1,6 +1,9 @@
 My Plugins
 ==========
 
+Color colorscheme:
+	Solarized      https://github.com/altercation/vim-colors-solarized	
+
 Plugins:
 
 	NERDTree       http://www.vim.org/scripts/script.php?script_id=1658
