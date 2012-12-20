@@ -10,7 +10,7 @@ Plugins:
 Install:
 
 	Clone this repository in ~/
-	Copy the file .vimrc to ~/.vimrc
+	Include .vimrc in your ~/.vimrc
 	Include the utils.sh in your .bash_profile
 
 Utils.sh
