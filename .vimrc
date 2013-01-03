@@ -9,6 +9,7 @@ set hlsearch
 set incsearch
 set autoindent
 set ignorecase
+set nowrap
 
 set cursorline
 hi CursorLine ctermbg=236 cterm=none
