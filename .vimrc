@@ -3,10 +3,13 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+filetype indent on
+
 set t_Co=256
 set number
 set hlsearch
 set incsearch
+set smartindent    
 set autoindent
 set ignorecase
 set nowrap

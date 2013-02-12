@@ -8,6 +8,7 @@ Plugins:
 
 	NERDTree       http://www.vim.org/scripts/script.php?script_id=1658
 	CommandT       http://www.vim.org/scripts/script.php?script_id=3025
+	Rails Support  http://www.vim.org/scripts/script.php?script_id=1567
 	Scala Sopport  https://github.com/scala/scala-dist/tree/master/tool-support/src/vim
 
 Install:
@@ -22,10 +23,10 @@ Utils.sh
 		Ex: ff "Person"
 
 	ft -  Find type
-		Ex: ff "java"
+		Ex: ft "java"
 
 	fd - Find directory
-		Ex: ff "src"
+		Ex: fd "src"
 
 	vv - Vim viewer
 		Ex: vv svn status
