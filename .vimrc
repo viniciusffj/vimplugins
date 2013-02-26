@@ -21,14 +21,14 @@ noremap  <Up>    ""
 noremap  <Down>  ""
 noremap  <Left>  ""
 noremap  <Right> ""
-map      <C-l>   :belowright vnew<Enter>
-map      <C-h>   :aboveleft vnew<Enter>
-map      <C-j>   :belowright new<Enter>
-map      <C-k>   :aboveleft new<Enter>
-map      <S-l>   <C-w><Right>
-map      <S-h>   <C-w><Left>
-map      <S-j>   <C-w><Down>
-map      <S-k>   <C-w><Up>
+map      <C-w>l   :belowright vnew<Enter>
+map      <C-w>h   :aboveleft vnew<Enter>
+map      <C-w>j   :belowright new<Enter>
+map      <C-w>k   :aboveleft new<Enter>
+map      <C-l>   <C-w><Right>
+map      <C-h>   <C-w><Left>
+map      <C-j>   <C-w><Down>
+map      <C-k>   <C-w><Up>
 map      <F3>    :CommandT <Enter>
 map      <F4>    :NERDTree<Enter>
 
