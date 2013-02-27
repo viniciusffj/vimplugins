@@ -21,14 +21,21 @@ noremap  <Up>    ""
 noremap  <Down>  ""
 noremap  <Left>  ""
 noremap  <Right> ""
+
 map      <C-w>l  :belowright vnew<Enter>
 map      <C-w>h  :aboveleft vnew<Enter>
 map      <C-w>j  :belowright new<Enter>
 map      <C-w>k  :aboveleft new<Enter>
+
 map      <C-l>   <C-w><Right>
 map      <C-h>   <C-w><Left>
 map      <C-j>   <C-w><Down>
 map      <C-k>   <C-w><Up>
+
+map      <C-_>   :tabnew <Enter>
+map      <Tab>   :tabnext <Enter>
+map      <S-Tab> :tabprevious <Enter>
+
 map      <F3>    :CommandT <Enter>
 map      <F4>    :NERDTree<Enter>
 
