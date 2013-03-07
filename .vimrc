@@ -4,6 +4,7 @@ set background=dark
 colorscheme solarized
 
 filetype indent on
+filetype plugin on
 
 set t_Co=256
 set number

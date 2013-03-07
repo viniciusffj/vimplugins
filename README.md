@@ -10,6 +10,7 @@ Plugins:
 	CommandT       http://www.vim.org/scripts/script.php?script_id=3025
 	Rails Support  http://www.vim.org/scripts/script.php?script_id=1567
 	Scala Sopport  https://github.com/scala/scala-dist/tree/master/tool-support/src/vim
+	Matchit        http://www.vim.org/scripts/script.php?script_id=39
 
 Install:
 
@@ -30,4 +31,10 @@ Utils.sh
 
 	vv - Vim viewer
 		Ex: vv svn status
+
+	gs - Grep search
+		Ex: gs "some*thing" someFolder
+
+	gl - Grep list file names
+		Ex: gl "some*thing" someFolder
 
