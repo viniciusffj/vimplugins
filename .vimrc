@@ -15,6 +15,8 @@ set autoindent
 set ignorecase
 set nowrap
 
+set pastetoggle=<F2>
+
 set cursorline
 hi CursorLine ctermbg=236 cterm=none
 
@@ -42,4 +44,11 @@ map      <S-Tab>  :tabprevious <Enter>
 map      <F3>     :CommandT <Enter>
 map      <F4>     :NERDTree<Enter>
 
-set pastetoggle=<F2>
+:function SetUseSpaces()
+  :set shiftwidth=2
+  :set tabstop=2
+  :set expandtab
+  echo "Using spaces instead of tab"
+:endfunction
+
+command! UseSpaces call SetUseSpaces()
