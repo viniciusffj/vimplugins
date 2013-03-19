@@ -19,6 +19,8 @@ set pastetoggle=<F2>
 
 set cursorline
 hi CursorLine ctermbg=236 cterm=none
+autocmd InsertEnter * hi CursorLine ctermbg=none
+autocmd InsertLeave * hi CursorLine ctermbg=236
 
 noremap  <Up>     ""
 noremap  <Down>   ""
