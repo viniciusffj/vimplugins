@@ -27,6 +27,10 @@ noremap  <Down>   ""
 noremap  <Left>   ""
 noremap  <Right>  ""
 
+noremap <expr> <silent> <Space><Space> ":vertical res<CR>:res<CR>"
+noremap <Space>= <C-w>=
+noremap <Space>o <C-w>o
+
 map      <Enter> :nohlsearch <Enter>
 
 map      <C-w>l   :belowright vnew<Enter>
