@@ -31,6 +31,8 @@ noremap <expr> <silent> <Space><Space> ":vertical res<CR>:res<CR>"
 noremap <Space>= <C-w>=
 noremap <Space>o <C-w>o
 
+:inoremap >< ></<C-x><C-o><ESC>2ba
+
 map      <Enter> :nohlsearch <Enter>
 
 map      <C-w>l   :belowright vnew<Enter>
