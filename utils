@@ -19,3 +19,12 @@ fd() {
 vv() {
 	eval "$@" | vim -R -
 }
+
+ww () {
+	if [ "$1" != "" ]; then
+		cd $1;
+		export WORK_DIR=`pwd`;
+	else
+		cd $WORK_DIR;
+	fi
+}
