@@ -60,3 +60,15 @@ map      <F4>     :NERDTree<Enter>
 :endfunction
 
 command! UseSpaces call SetUseSpaces()
+
+function! InsertTabWrapper()
+    let col = col('.') - 1
+    if !col || getline('.')[col - 1] !~ '\k'
+        return "\<tab>"
+    else
+        return "\<c-p>"
+    endif
+endfunction
+
+inoremap <Tab> <C-R>=InsertTabWrapper()<CR>
+inoremap <S-Tab> <C-N>
