@@ -52,12 +52,12 @@ map      <S-Tab>  :tabprevious <Enter>
 map      <F3>     :CommandT <Enter>
 map      <F4>     :NERDTree<Enter>
 
-:function SetUseSpaces()
+function SetUseSpaces()
   :set shiftwidth=2
   :set tabstop=2
   :set expandtab
   echo "Using spaces instead of tab"
-:endfunction
+endfunction
 
 command! UseSpaces call SetUseSpaces()
 
