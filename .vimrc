@@ -10,7 +10,7 @@ set t_Co=256
 set number
 set hlsearch
 set incsearch
-set smartindent    
+set smartindent
 set autoindent
 set ignorecase
 set nowrap
@@ -31,9 +31,9 @@ noremap <expr> <silent> <Space><Space> ":vertical res<CR>:res<CR>"
 noremap <Space>= <C-w>=
 noremap <Space>o <C-w>o
 
-:inoremap >< ></<C-x><C-o><ESC>2ba
+inoremap >< ></<C-x><C-o><ESC>2ba
 
-map      <Enter> :nohlsearch <Enter>
+map      <Enter>  :nohlsearch <Enter>
 
 map      <C-w>l   :belowright vnew<Enter>
 map      <C-w>h   :aboveleft vnew<Enter>
@@ -46,16 +46,16 @@ map      <C-j>    <C-w><Down>
 map      <C-k>    <C-w><Up>
 
 map      <C-_>    :tabnew <Enter>
-map      <Tab>    :tabnext <Enter>
-map      <S-Tab>  :tabprevious <Enter>
+map      <F12>    :tabnext <Enter>
+map      <F11>    :tabprevious <Enter>
 
 map      <F3>     :CommandT <Enter>
 map      <F4>     :NERDTree<Enter>
 
 function SetUseSpaces()
-  :set shiftwidth=2
-  :set tabstop=2
-  :set expandtab
+  set shiftwidth=2
+  set tabstop=2
+  set expandtab
   echo "Using spaces instead of tab"
 endfunction
 
