@@ -1,5 +1,7 @@
 syntax enable
 
+set hidden
+
 set background=dark
 colorscheme solarized
 
