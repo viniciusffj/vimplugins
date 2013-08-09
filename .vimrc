@@ -8,6 +8,7 @@ colorscheme solarized
 filetype indent on
 filetype plugin on
 
+set tabstop=4
 set t_Co=256
 set number
 set hlsearch
@@ -33,7 +34,7 @@ noremap <expr> <silent> <Space><Space> ":vertical res<CR>:res<CR>"
 noremap <Space>= <C-w>=
 noremap <Space>o <C-w>o
 
-inoremap >< ></<C-x><C-o><ESC>2ba
+"inoremap >< ></<C-x><C-o><ESC>2ba
 
 map      <Enter>  :nohlsearch <Enter>
 

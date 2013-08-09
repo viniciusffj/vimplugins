@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/epintor/.vim'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/epintor/Projects/own/super_board/runtimeserver'
+let g:netrw_dirhist_2='/Users/epintor/Projects/own/super_board/backend'
+let g:netrw_dirhist_3='/Users/epintor/Projects/own/super_board/.git'
+let g:netrw_dirhist_4='/Users/epintor/.rvm/gems/ruby-1.8.7-p374@isos/bundler/gems/taza-441b77dd620e/.git'
+let g:netrw_dirhist_5='/Users/epintor/Projects/own/super_board/scripts/utils'
+let g:netrw_dirhist_6='/Users/epintor/Projects/own/django_spike'
+let g:netrw_dirhist_7='/Users/epintor/Projects/own/django_spike/django_spike'
