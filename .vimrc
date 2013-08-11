@@ -52,7 +52,7 @@ map      <C-k>    <C-w><Up>
 
 map      <C-_>    :tabnew <Enter>
 map      <F12>    :tabnext <Enter>
-map      <F11>    :tabprevious <Enter>
+map      <S-F12>    :tabprevious <Enter>
 
 map      <F3>     :CommandT <Enter>
 map      <F4>     :NERDTree<Enter>
