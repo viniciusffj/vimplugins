@@ -1,0 +1,23 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle "vim-scripts/ctrlp.vim"
+Bundle "vim-scripts/EasyMotion"
+Bundle "vim-scripts/bufexplorer.zip"
+Bundle "vim-scripts/matchit.zip"
+
+Bundle "scrooloose/nerdtree"
+
+Bundle "tpope/vim-surround"
+Bundle "tpope/vim-markdown"
+
+filetype plugin indent on
+
+Bundle 'bling/vim-airline'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '◀'

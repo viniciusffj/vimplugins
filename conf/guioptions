@@ -1,0 +1,10 @@
+colorscheme solarized
+set background=dark
+
+
+set t_Co=256
+
+set cursorline
+hi CursorLine ctermbg=236 cterm=none
+autocmd InsertEnter * hi CursorLine ctermbg=none
+autocmd InsertLeave * hi CursorLine ctermbg=236

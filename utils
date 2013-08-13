@@ -20,7 +20,7 @@ vv() {
 	eval "$@" | vim -
 }
 
-ww () {
+ww() {
 	if [ "$1" != "" ]; then
 		cd $1;
 		export WORK_DIR=`pwd`;
