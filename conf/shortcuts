@@ -21,8 +21,8 @@ map      <S-F12>  :tabprevious <Enter>
 
 map      <F4>     :NERDTreeToggle<Enter>
 
-map      ]q       :cnext<cr>
-map      [q       :cprevious<cr>
+map      ]q       :cnf<cr>
+map      [q       :cpf<cr>
 
 noremap  <expr><silent><Space><Space> ":vertical res<CR>:res<CR>"
 noremap  <Space>= <C-w>=
