@@ -1,13 +1,9 @@
-noremap  <Up>     <nop>
-noremap  <Down>   <nop>
-noremap  <Left>   <nop>
-noremap  <Right>  <nop>
+noremap   <Up>     <nop>
+noremap   <Down>   <nop>
+noremap   <Left>   <nop>
+noremap   <Right>  <nop>
 
-noremap <expr> <silent> <Space><Space> ":vertical res<CR>:res<CR>"
-noremap <Space>= <C-w>=
-noremap <Space>o <C-w>o
-
-map      <Enter>  :nohlsearch <Enter>
+map      <cr>     :nohlsearch <Enter>
 
 map      <C-w>l   :belowright vnew<Enter>
 map      <C-w>h   :aboveleft vnew<Enter>
@@ -24,5 +20,12 @@ map      <F12>    :tabnext <Enter>
 map      <S-F12>  :tabprevious <Enter>
 
 map      <F4>     :NERDTreeToggle<Enter>
+
+map      ]q       :cnext<cr>
+map      [q       :cprevious<cr>
+
+noremap  <expr><silent><Space><Space> ":vertical res<CR>:res<CR>"
+noremap  <Space>= <C-w>=
+noremap  <Space>o <C-w>o
 
 set pastetoggle=<F2>
