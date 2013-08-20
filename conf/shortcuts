@@ -3,23 +3,24 @@ noremap   <Down>   <nop>
 noremap   <Left>   <nop>
 noremap   <Right>  <nop>
 
-map      <cr>     :nohlsearch <Enter>
+map      <cr>     :nohlsearch <cr>
 
-map      <C-w>l   :belowright vnew<Enter>
-map      <C-w>h   :aboveleft vnew<Enter>
-map      <C-w>j   :belowright new<Enter>
-map      <C-w>k   :aboveleft new<Enter>
+map      <C-w>l   :belowright vnew<cr>
+map      <C-w>h   :aboveleft vnew<cr>
+map      <C-w>j   :belowright new<cr>
+map      <C-w>k   :aboveleft new<cr>
 
 map      <C-l>    <C-w><Right>
 map      <C-h>    <C-w><Left>
 map      <C-j>    <C-w><Down>
 map      <C-k>    <C-w><Up>
 
-map      <C-_>    :tabnew <Enter>
-map      <F12>    :tabnext <Enter>
-map      <S-F12>  :tabprevious <Enter>
+map      <C-_>    :tabnew <cr>
+map      <F12>    :tabnext <cr>
+map      <S-F12>  :tabprevious <cr>
 
-map      <F4>     :NERDTreeToggle<Enter>
+map      <F4>     :NERDTreeToggle<cr>
+map      <F3>     :CtrlPTag<cr>
 
 map      ]q       :cnf<cr>
 map      [q       :cpf<cr>
