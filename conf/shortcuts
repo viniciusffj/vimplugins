@@ -22,8 +22,8 @@ map      <S-F12>  :tabprevious <cr>
 map      <F4>     :NERDTreeToggle<cr>
 map      <F3>     :CtrlPTag<cr>
 
-map      ]q       :cnf<cr>
-map      [q       :cpf<cr>
+map      ]q       :cn<cr>
+map      [q       :cp<cr>
 
 noremap  <expr><silent><Space><Space> ":vertical res<CR>:res<CR>"
 noremap  <Space>= <C-w>=
