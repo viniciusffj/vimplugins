@@ -15,10 +15,6 @@ map      <C-h>    <C-w><Left>
 map      <C-j>    <C-w><Down>
 map      <C-k>    <C-w><Up>
 
-map      <C-_>    :tabnew <cr>
-map      <F12>    :tabnext <cr>
-map      <S-F12>  :tabprevious <cr>
-
 map      <F4>     :NERDTreeToggle<cr>
 map      <F3>     :CtrlPTag<cr>
 
