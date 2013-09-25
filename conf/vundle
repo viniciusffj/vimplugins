@@ -8,6 +8,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'vim-scripts/EasyMotion'
 Bundle 'vim-scripts/Syntastic'
+Bundle 'vim-scripts/SyntaxRange'
 Bundle 'vim-scripts/ctrlp.vim'
 Bundle 'vim-scripts/rainbow_parentheses.vim'
 Bundle 'vim-scripts/closetag.vim'
