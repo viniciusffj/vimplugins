@@ -15,18 +15,18 @@ Bundle 'vim-scripts/closetag.vim'
 Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'vim-scripts/matchit.zip'
 
-Bundle 'scrooloose/nerdtree'
-
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-fugitive'
 
+Bundle 'scrooloose/nerdtree'
+Bundle 'guns/vim-clojure-static'
+Bundle 'bling/vim-airline'
+Bundle 'jpalardy/vim-slime'
+
+filetype plugin indent on
+
+"----- Session for future reference -----
 "Clojure repl dependencies
 "Bundle 'tpope/vim-classpath'
 "Bundle 'tpope/vim-fireplace'
-
-Bundle 'guns/vim-clojure-static'
-
-Bundle 'bling/vim-airline'
-
-filetype plugin indent on
