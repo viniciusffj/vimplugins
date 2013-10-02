@@ -6,6 +6,10 @@ alias gl="grep -Rl --exclude=*.svn*"
 
 repl() {
 	screen -S repl $1
+	
+	echo -n 'Exit terminal? (Y/n): ' && read -n 1 should_exit
+	[ $should_exit == 'n' ] && echo && return
+	exit 0
 }
 
 ff() {
