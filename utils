@@ -62,6 +62,8 @@ ww() {
 	fi
 }
 
+wl() { [[ -z $WORK_DIR ]] && echo "No current workspace defined" || echo $WORK_DIR; }
+
 p() { cd ${_PROJECT_FOLDER}/$1; }
 pw() { ww ${_PROJECT_FOLDER}/$1; }
 
