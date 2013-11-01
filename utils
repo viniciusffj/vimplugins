@@ -11,7 +11,8 @@ c() { _expand_last_arg_if_number cat $@; }
 repl() {
 	screen -S repl $1
 
-	echo -n 'Exit terminal? (Y/n): ' && read -n 1 should_exit
+	echo -n 'Exit terminal? Type "r" to launch the repl again... (Y/r/n): ' && read -n 1 should_exit
+	[ $should_exit == 'r' ] && echo && repl $1
 	[ $should_exit == 'n' ] && echo && return
 	exit 0
 }
