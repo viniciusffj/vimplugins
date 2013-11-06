@@ -24,9 +24,5 @@ map      [q       :cp<cr>
 noremap  <expr><silent><Space><Space> ":vertical res<CR>:res<CR>"
 noremap  <Space>= <C-w>=
 noremap  <Space>o <C-w>o
-noremap  + <C-w>+
-noremap  - <C-w>-
-noremap  < <C-w><
-noremap  > <C-w>>
 
 set pastetoggle=<F2>
