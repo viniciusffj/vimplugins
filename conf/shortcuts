@@ -3,6 +3,9 @@ noremap   <Down>   <nop>
 noremap   <Left>   <nop>
 noremap   <Right>  <nop>
 
+noremap   <F1>     <Esc>
+inoremap  <F1>     <Esc>
+
 map      <cr>     :nohlsearch <cr>
 
 map      <C-w>l   :belowright vnew<cr>
