@@ -6,6 +6,8 @@ noremap   <Right>  <nop>
 noremap   <F1>     <Esc>
 inoremap  <F1>     <Esc>
 
+noremap   <F12>    :SyntasticToggleMode<cr>
+
 map      <cr>     :nohlsearch <cr>
 
 map      <C-w>l   :belowright vnew<cr>
