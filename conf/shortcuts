@@ -8,26 +8,28 @@ inoremap  <F1>     <Esc>
 
 noremap   <F12>    :SyntasticToggleMode<cr>
 
-map      <cr>     :nohlsearch <cr>
+noremap   <cr>      :nohlsearch<cr>
 
-map      <C-w>l   :belowright vnew<cr>
-map      <C-w>h   :aboveleft vnew<cr>
-map      <C-w>j   :belowright new<cr>
-map      <C-w>k   :aboveleft new<cr>
+noremap   <C-w>l    :belowright vnew<cr>
+noremap   <C-w>h    :aboveleft vnew<cr>
+noremap   <C-w>j    :belowright new<cr>
+noremap   <C-w>k    :aboveleft new<cr>
 
-map      <C-l>    <C-w><Right>
-map      <C-h>    <C-w><Left>
-map      <C-j>    <C-w><Down>
-map      <C-k>    <C-w><Up>
+noremap   <C-l>     <C-w><Right>
+noremap   <C-h>     <C-w><Left>
+noremap   <C-j>     <C-w><Down>
+noremap   <C-k>     <C-w><Up>
 
-map      <F4>     :NERDTreeToggle<cr>
-map      <F3>     :CtrlPTag<cr>
+noremap   <F4>      :NERDTreeToggle<cr>
+noremap   <F3>      :CtrlPTag<cr>
 
-map      ]q       :cn<cr>
-map      [q       :cp<cr>
+noremap   ]q        :cn<cr>
+noremap   [q        :cp<cr>
 
-noremap  <expr><silent><Space><Space> ":vertical res<CR>:res<CR>"
-noremap  <Space>= <C-w>=
-noremap  <Space>o <C-w>o
+noremap   \r        :%s/\C<c-r>=expand("<cword>")<cr>//gc<left><left><left>
+
+noremap   <expr><silent><Space><Space> ":vertical res<CR>:res<CR>"
+noremap   <Space>= <C-w>=
+noremap   <Space>o <C-w>o
 
 set pastetoggle=<F2>
