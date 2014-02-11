@@ -8,7 +8,7 @@ hi CursorLine ctermbg=236 cterm=none
 autocmd InsertEnter * hi CursorLine ctermbg=none
 autocmd InsertLeave * hi CursorLine ctermbg=236
 
-let g:airline_theme='bubblegum'
+let g:airline_theme='ubaryd'
 let g:airline_left_sep = '▶'
 let g:airline_right_sep = '◀'
 
