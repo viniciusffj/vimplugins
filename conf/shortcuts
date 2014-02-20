@@ -26,7 +26,8 @@ noremap   <F3>      :CtrlPTag<cr>
 noremap   ]q        :cn<cr>
 noremap   [q        :cp<cr>
 
-noremap   \r        :%s/\C<c-r>=expand("<cword>")<cr>//gc<left><left><left>
+noremap   \r        :%s/\C<c-r>=expand("<cword>")<cr>/<c-r>=expand("<cword>")<cr>/gc<left><left><left>
+noremap   \\r       :%s/\C<c-r>=expand("<cword>")<cr>//gc<left><left><left>
 
 noremap   <expr><silent><Space><Space> ":vertical res<CR>:res<CR>"
 noremap   <Space>= <C-w>=
