@@ -23,3 +23,5 @@ set shiftwidth=4
 filetype indent on
 filetype plugin on
 
+let g:ctrlp_working_path_mode = 'a'
+let g:slime_target = 'tmux'

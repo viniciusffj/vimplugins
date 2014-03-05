@@ -11,5 +11,3 @@ autocmd InsertLeave * hi CursorLine ctermbg=236
 let g:airline_theme='ubaryd'
 let g:airline_left_sep = '▶'
 let g:airline_right_sep = '◀'
-
-let g:ctrlp_working_path_mode = 'a'
