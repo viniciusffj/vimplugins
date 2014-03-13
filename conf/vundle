@@ -18,7 +18,6 @@ Bundle 'vim-scripts/scala.vim'
 
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-fugitive'
 
 Bundle 'scrooloose/nerdtree'
 Bundle 'guns/vim-clojure-static'
