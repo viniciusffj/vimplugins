@@ -11,3 +11,20 @@ autocmd InsertLeave * hi CursorLine ctermbg=236
 let g:airline_theme='ubaryd'
 let g:airline_left_sep = '▶'
 let g:airline_right_sep = '◀'
+
+let g:ctrlp_reuse_window  = 'startify'
+hi StartifyHeader  ctermfg=203 guifg=#ff5f5f
+hi StartifyFooter  ctermfg=111 guifg=#87afff
+hi StartifyBracket ctermfg=240 guifg=#585858
+hi StartifyNumber  ctermfg=215 guifg=#ffaf5f
+hi StartifyPath    ctermfg=245 guifg=#8a8a8a
+hi StartifySlash   ctermfg=240 guifg=#585858
+let g:startify_custom_header = [
+     \ '    _    ___              _____ __ __   ',
+     \ '   | |  / (_)___ ___     /__  // // /   ',
+     \ '   | | / / / __ `__ \      / / // /_    ',
+     \ '   | |/ / / / / / / /     / /__  __/    ',
+     \ '   |___/_/_/ /_/ /_/     /_(_)/_/       ',
+     \ '',
+     \ '',
+     \ ]

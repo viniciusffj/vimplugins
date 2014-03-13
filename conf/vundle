@@ -24,6 +24,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'guns/vim-clojure-static'
 Bundle 'bling/vim-airline'
 Bundle 'jpalardy/vim-slime'
+Bundle 'mhinz/vim-startify'
 
 filetype plugin indent on
 
