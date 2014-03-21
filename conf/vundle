@@ -24,6 +24,7 @@ Bundle 'guns/vim-clojure-static'
 Bundle 'bling/vim-airline'
 Bundle 'jpalardy/vim-slime'
 Bundle 'mhinz/vim-startify'
+Bundle 'mileszs/ack.vim'
 
 filetype plugin indent on
 
