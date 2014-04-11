@@ -28,6 +28,7 @@ noremap   [q        :cp<cr>
 
 noremap   \r        :%s/\C<c-r>=expand("<cword>")<cr>/<c-r>=expand("<cword>")<cr>/gc<left><left><left>
 noremap   \\r       :%s/\C<c-r>=expand("<cword>")<cr>//gc<left><left><left>
+noremap   \y        "+y
 
 noremap   <expr><silent><Space><Space> ":vertical res<CR>:res<CR>"
 noremap   <Space>= <C-w>=
