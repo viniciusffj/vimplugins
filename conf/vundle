@@ -4,31 +4,35 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-Bundle 'vim-scripts/EasyMotion'
-Bundle 'vim-scripts/Syntastic'
-Bundle 'vim-scripts/SyntaxRange'
-Bundle 'vim-scripts/ctrlp.vim'
-Bundle 'vim-scripts/rainbow_parentheses.vim'
-Bundle 'vim-scripts/closetag.vim'
-Bundle 'vim-scripts/bufexplorer.zip'
-Bundle 'vim-scripts/matchit.zip'
-Bundle 'vim-scripts/scala.vim'
+Plugin 'vim-scripts/EasyMotion'
+Plugin 'vim-scripts/Syntastic'
+Plugin 'vim-scripts/SyntaxRange'
+Plugin 'vim-scripts/ctrlp.vim'
+Plugin 'vim-scripts/rainbow_parentheses.vim'
+Plugin 'vim-scripts/closetag.vim'
+Plugin 'vim-scripts/bufexplorer.zip'
+Plugin 'vim-scripts/matchit.zip'
+Plugin 'vim-scripts/scala.vim'
+Plugin 'vim-scripts/delimitMate.vim'
 
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-markdown'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
-Bundle 'scrooloose/nerdtree'
-Bundle 'guns/vim-clojure-static'
-Bundle 'bling/vim-airline'
-Bundle 'jpalardy/vim-slime'
-Bundle 'mhinz/vim-startify'
-Bundle 'mileszs/ack.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-markdown'
+
+Plugin 'scrooloose/nerdtree'
+Plugin 'guns/vim-clojure-static'
+Plugin 'bling/vim-airline'
+Plugin 'jpalardy/vim-slime'
+Plugin 'mhinz/vim-startify'
+Plugin 'mileszs/ack.vim'
 
 filetype plugin indent on
 
 "----- Session for future reference -----
 "Clojure repl dependencies
-"Bundle 'tpope/vim-classpath'
-"Bundle 'tpope/vim-fireplace'
+"Plugin 'tpope/vim-classpath'
+"Plugin 'tpope/vim-fireplace'
