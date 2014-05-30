@@ -5,6 +5,7 @@ set t_Co=256
 
 set cursorline
 hi CursorLine ctermbg=236 cterm=none
+hi CursorLineNR ctermfg=166
 autocmd InsertEnter * hi CursorLine ctermbg=none
 autocmd InsertLeave * hi CursorLine ctermbg=236
 
