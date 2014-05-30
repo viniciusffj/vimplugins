@@ -1,8 +1,8 @@
 function! SetUseSpaces(spaces)
-    let &l:shiftwidth = a:spaces
-    let &l:tabstop = a:spaces
-    set expandtab
-    echo "Using " . a:spaces . " spaces instead of tab"
+	let &l:shiftwidth = a:spaces
+	let &l:tabstop = a:spaces
+	set expandtab
+	echo "Using " . a:spaces . " spaces instead of tab"
 endfunction
 
 noremap \\2 :call SetUseSpaces(2)<cr>
@@ -10,10 +10,14 @@ noremap \\4 :call SetUseSpaces(4)<cr>
 noremap \\<Tab> :call SetUseSpaces(4)<cr>:set noexpandtab<cr>
 
 function! InsertTabWrapper()
-    let col = col('.') - 1
-    if !col || getline('.')[col - 1] !~ '\k'
-        return "\<tab>"
-    endif
+	let col = col('.') - 1
+	if !col || getline('.')[col - 1] !~ '\k'
+		return "\<tab>"
+	endif
+
+	if pumvisible() > 0
+		return "\<c-p>"
+	endif
 
 	call UltiSnips#ExpandSnippet()
 	if g:ulti_expand_res > 0
