@@ -16,6 +16,7 @@ Plugin 'vim-scripts/bufexplorer.zip'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/scala.vim'
 Plugin 'vim-scripts/delimitMate.vim'
+Plugin 'vim-scripts/repeat.vim'
 
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
