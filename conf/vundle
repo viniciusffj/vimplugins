@@ -30,6 +30,7 @@ Plugin 'bling/vim-airline'
 Plugin 'jpalardy/vim-slime'
 Plugin 'mhinz/vim-startify'
 Plugin 'mileszs/ack.vim'
+Plugin 'tfnico/vim-gradle'
 
 filetype plugin indent on
 
