@@ -13,6 +13,12 @@ let g:airline_theme='ubaryd'
 let g:airline_left_sep = '▶'
 let g:airline_right_sep = '◀'
 
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
+let g:limelight_conceal_guifg = 'DarkGray'
+let g:limelight_conceal_guifg = '#777777'
+let g:limelight_default_coefficient = 0.7
+
 let g:ctrlp_reuse_window  = 'startify'
 hi StartifyHeader  ctermfg=203 guifg=#ff5f5f
 hi StartifyFooter  ctermfg=111 guifg=#87afff
