@@ -3,13 +3,6 @@ noremap   <Down>   <nop>
 noremap   <Left>   <nop>
 noremap   <Right>  <nop>
 
-noremap   <F1>     <Esc>
-inoremap  <F1>     <Esc>
-
-noremap   <F12>    :SyntasticToggleMode<cr>
-
-noremap   <cr>      :nohlsearch<cr>
-
 noremap   <C-w>l    :belowright vnew<cr>
 noremap   <C-w>h    :aboveleft vnew<cr>
 noremap   <C-w>j    :belowright new<cr>
@@ -20,18 +13,34 @@ noremap   <C-h>     <C-w><Left>
 noremap   <C-j>     <C-w><Down>
 noremap   <C-k>     <C-w><Up>
 
-noremap   <F4>      :NERDTreeToggle<cr>
-noremap   <F3>      :CtrlPTag<cr>
-
 noremap   ]q        :cn<cr>
 noremap   [q        :cp<cr>
 
 noremap   \r        :%s/\C<c-r>=expand("<cword>")<cr>/<c-r>=expand("<cword>")<cr>/gc<left><left><left>
 noremap   \\r       :%s/\C<c-r>=expand("<cword>")<cr>//gc<left><left><left>
-noremap   \y        "+y
 
-noremap   <expr><silent><Space><Space> ":vertical res<CR>:res<CR>"
+noremap   \y        "+y
+noremap   \p        "+p
+noremap   \P        "+P
+
+nnoremap   Q        @q
+vnoremap   Q        :norm @q<cr>
+
+noremap   <C-w>t    :tabnew<cr>
+noremap   <S-l>     gt
+noremap   <S-h>     gT
+
+noremap   <expr><silent><Space><Space> ":vertical res<cr>:res<cr>"
 noremap   <Space>= <C-w>=
 noremap   <Space>o <C-w>o
+
+noremap   <F12>    :SyntasticToggleMode<cr>
+noremap   <F1>     <Esc>
+inoremap  <F1>     <Esc>
+vnoremap  <F1>     <Esc>
+noremap   <F4>      :NERDTreeToggle<cr>
+noremap   <F3>      :CtrlPTag<cr>
+
+noremap   <cr>      :nohlsearch<cr>
 
 set pastetoggle=<F2>
