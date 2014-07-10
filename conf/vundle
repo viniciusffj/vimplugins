@@ -32,6 +32,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'mileszs/ack.vim'
 Plugin 'tfnico/vim-gradle'
 Plugin 'junegunn/limelight.vim'
+Plugin 'inside/vim-search-pulse'
 
 filetype plugin indent on
 
