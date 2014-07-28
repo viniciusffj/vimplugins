@@ -2,6 +2,8 @@ colorscheme solarized
 set title
 set background=dark
 set t_Co=256
+set list
+set listchars=trail:·
 
 set cursorline
 hi CursorLine ctermbg=236 cterm=none
