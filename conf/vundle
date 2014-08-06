@@ -33,6 +33,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'tfnico/vim-gradle'
 Plugin 'junegunn/limelight.vim'
 Plugin 'inside/vim-search-pulse'
+Plugin 'christoomey/vim-tmux-navigator'
 
 filetype plugin indent on
 

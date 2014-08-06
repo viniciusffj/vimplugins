@@ -8,11 +8,6 @@ noremap   <C-w>h    :aboveleft vnew<cr>
 noremap   <C-w>j    :belowright new<cr>
 noremap   <C-w>k    :aboveleft new<cr>
 
-noremap   <C-l>     <C-w><Right>
-noremap   <C-h>     <C-w><Left>
-noremap   <C-j>     <C-w><Down>
-noremap   <C-k>     <C-w><Up>
-
 noremap   ]q        :cn<cr>
 noremap   [q        :cp<cr>
 
