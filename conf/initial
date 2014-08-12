@@ -2,6 +2,7 @@ syntax enable
 
 set hidden
 set number
+set relativenumber
 set hlsearch
 set incsearch
 set smartindent

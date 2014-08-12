@@ -29,11 +29,12 @@ noremap   <expr><silent><Space><Space> ":vertical res<cr>:res<cr>"
 noremap   <Space>= <C-w>=
 noremap   <Space>o <C-w>o
 
-noremap   <F1>     <Esc>
-inoremap  <F1>     <Esc>
-vnoremap  <F1>     <Esc>
+noremap   <F1>      <Esc>
+inoremap  <F1>      <Esc>
+vnoremap  <F1>      <Esc>
 noremap   <F4>      :NERDTreeToggle<cr>
 noremap   <F3>      :CtrlPTag<cr>
+noremap   <F11>     :set relativenumber!<cr>
 noremap   <F12>     :SyntasticToggleMode<cr>
 
 noremap   <cr>      :nohlsearch<cr>
