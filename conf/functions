@@ -5,10 +5,6 @@ function! SetUseSpaces(spaces)
 	echo "Using " . a:spaces . " spaces instead of tab"
 endfunction
 
-noremap \\2 :call SetUseSpaces(2)<cr>
-noremap \\4 :call SetUseSpaces(4)<cr>
-noremap \\<Tab> :call SetUseSpaces(4)<cr>:set noexpandtab<cr>
-
 function! InsertTabWrapper()
 	let col = col('.') - 1
 	if !col || getline('.')[col - 1] !~ '\k'
@@ -26,6 +22,3 @@ function! InsertTabWrapper()
 
 	return "\<c-p>"
 endfunction
-
-inoremap <Tab> <C-R>=InsertTabWrapper()<CR>
-inoremap <S-Tab> <C-N>

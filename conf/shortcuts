@@ -18,6 +18,13 @@ noremap   \y        "+y
 noremap   \p        "+p
 noremap   \P        "+P
 
+noremap \\2         :call SetUseSpaces(2)<cr>
+noremap \\4         :call SetUseSpaces(4)<cr>
+noremap \\<Tab>     :call SetUseSpaces(4)<cr>:set noexpandtab<cr>
+
+inoremap <Tab>      <C-R>=InsertTabWrapper()<CR>
+inoremap <S-Tab>    <C-N>
+
 nnoremap   Q        @q
 vnoremap   Q        :norm @q<cr>
 
@@ -34,7 +41,6 @@ inoremap  <F1>      <Esc>
 vnoremap  <F1>      <Esc>
 noremap   <F4>      :NERDTreeToggle<cr>
 noremap   <F3>      :CtrlPTag<cr>
-noremap   <F11>     :set relativenumber!<cr>
 noremap   <F12>     :SyntasticToggleMode<cr>
 
 noremap   <cr>      :nohlsearch<cr>
