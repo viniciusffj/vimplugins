@@ -22,3 +22,13 @@ function! InsertTabWrapper()
 
 	return "\<c-p>"
 endfunction
+
+function! QuickToggleRelativeNumbers()
+	set relativenumber!
+	redraw
+
+	echo "Type any key to toggle relativenumber again..."
+	call getchar()
+
+	set relativenumber!
+endfunction
