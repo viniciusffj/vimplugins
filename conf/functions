@@ -27,8 +27,8 @@ function! QuickToggleRelativeNumbers()
 	set relativenumber!
 	redraw
 
-	echo "Type any key to toggle relativenumber again..."
-	call getchar()
-
+	let key = nr2char(getchar())
 	set relativenumber!
+
+	return key
 endfunction
