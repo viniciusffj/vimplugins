@@ -1,11 +1,11 @@
-function! SetUseSpaces(spaces)
+function SetUseSpaces(spaces)
 	let &l:shiftwidth = a:spaces
 	let &l:tabstop = a:spaces
 	set expandtab
 	echo "Using " . a:spaces . " spaces instead of tab"
 endfunction
 
-function! InsertTabWrapper()
+function InsertTabWrapper()
 	let col = col('.') - 1
 	if !col || getline('.')[col - 1] !~ '\k'
 		return "\<tab>"
@@ -23,7 +23,7 @@ function! InsertTabWrapper()
 	return "\<c-p>"
 endfunction
 
-function! QuickToggleRelativeNumbers()
+function QuickToggleRelativeNumbers()
 	set relativenumber!
 	redraw
 
