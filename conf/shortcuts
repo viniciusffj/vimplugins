@@ -25,6 +25,9 @@ noremap               <Leader><Leader>2             :call SetUseSpaces(2)<cr>
 noremap               <Leader><Leader>4             :call SetUseSpaces(4)<cr>
 noremap               <Leader><Leader><Tab>         :call SetUseSpaces(4)<cr>:set noexpandtab<cr>
 
+noremap               <Leader><Cr>                  m`o<Esc>``
+noremap               <Leader><Leader><Cr>          m`o<Esc>``
+
 inoremap              <Tab>                         <C-R>=InsertTabWrapper()<CR>
 inoremap              <S-Tab>                       <C-N>
 
