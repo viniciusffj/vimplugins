@@ -14,16 +14,16 @@ noremap               <C-w>k                        :aboveleft new<cr>
 noremap               ]q                            :cn<cr>
 noremap               [q                            :cp<cr>
 
-noremap               \r                            :%s/\C<c-r>=expand("<cword>")<cr>/<c-r>=expand("<cword>")<cr>/gc<left><left><left>
-noremap               \\r                           :%s/\C<c-r>=expand("<cword>")<cr>//gc<left><left><left>
+noremap               <Leader>r                     :%s/\C<c-r>=expand("<cword>")<cr>/<c-r>=expand("<cword>")<cr>/gc<left><left><left>
+noremap               <Leader><Leader>r             :%s/\C<c-r>=expand("<cword>")<cr>//gc<left><left><left>
 
-noremap               \y                            "+y
-noremap               \p                            "+p
-noremap               \P                            "+P
+noremap               <Leader>y                     "+y
+noremap               <Leader>p                     "+p
+noremap               <Leader>P                     "+P
 
-noremap               \\2                           :call SetUseSpaces(2)<cr>
-noremap               \\4                           :call SetUseSpaces(4)<cr>
-noremap               \\<Tab>                       :call SetUseSpaces(4)<cr>:set noexpandtab<cr>
+noremap               <Leader><Leader>2             :call SetUseSpaces(2)<cr>
+noremap               <Leader><Leader>4             :call SetUseSpaces(4)<cr>
+noremap               <Leader><Leader><Tab>         :call SetUseSpaces(4)<cr>:set noexpandtab<cr>
 
 inoremap              <Tab>                         <C-R>=InsertTabWrapper()<CR>
 inoremap              <S-Tab>                       <C-N>
