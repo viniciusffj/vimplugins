@@ -1,6 +1,9 @@
 let mapleader=" "
 set pastetoggle=<F2>
 
+noremap               <Leader>ev                    :vsplit $MYVIMRC<CR>
+noremap               <Leader>sv                    :source $MYVIMRC<CR>
+
 noremap               <Up>                          <NOP>
 noremap               <Down>                        <NOP>
 noremap               <Left>                        <NOP>
