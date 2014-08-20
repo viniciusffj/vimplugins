@@ -1,54 +1,54 @@
 let mapleader=" "
 set pastetoggle=<F2>
 
-noremap               <Up>                          <nop>
-noremap               <Down>                        <nop>
-noremap               <Left>                        <nop>
-noremap               <Right>                       <nop>
+noremap               <Up>                          <NOP>
+noremap               <Down>                        <NOP>
+noremap               <Left>                        <NOP>
+noremap               <Right>                       <NOP>
 
-noremap               <C-w>l                        :belowright vnew<cr>
-noremap               <C-w>h                        :aboveleft vnew<cr>
-noremap               <C-w>j                        :belowright new<cr>
-noremap               <C-w>k                        :aboveleft new<cr>
+noremap               <C-w>l                        :belowright vnew<CR>
+noremap               <C-w>h                        :aboveleft vnew<CR>
+noremap               <C-w>j                        :belowright new<CR>
+noremap               <C-w>k                        :aboveleft new<CR>
 
-noremap               ]q                            :cn<cr>
-noremap               [q                            :cp<cr>
+noremap               ]q                            :cn<CR>
+noremap               [q                            :cp<CR>
 
-noremap               <Leader>r                     :%s/\C<c-r>=expand("<cword>")<cr>/<c-r>=expand("<cword>")<cr>/gc<left><left><left>
-noremap               <Leader><Leader>r             :%s/\C<c-r>=expand("<cword>")<cr>//gc<left><left><left>
+noremap               <Leader>r                     :%s/\C<C-r>=expand("<cword>")<CR>/<C-r>=expand("<cword>")<CR>/gc<left><left><left>
+noremap               <Leader><Leader>r             :%s/\C<C-r>=expand("<cword>")<CR>//gc<left><left><left>
 
 noremap               <Leader>y                     "+y
 noremap               <Leader>p                     "+p
 noremap               <Leader>P                     "+P
 
-noremap               <Leader><Leader>2             :call SetUseSpaces(2)<cr>
-noremap               <Leader><Leader>4             :call SetUseSpaces(4)<cr>
-noremap               <Leader><Leader><Tab>         :call SetUseSpaces(4)<cr>:set noexpandtab<cr>
+noremap               <Leader><Leader>2             :call SetUseSpaces(2)<CR>
+noremap               <Leader><Leader>4             :call SetUseSpaces(4)<CR>
+noremap               <Leader><Leader><Tab>         :call SetUseSpaces(4)<CR>:set noexpandtab<CR>
 
-noremap               <Leader><Cr>                  m`o<Esc>``
-noremap               <Leader><Leader><Cr>          m`o<Esc>``
+noremap               <Leader><CR>                  m`o<Esc>``
+noremap               <Leader><Leader><CR>          m`o<Esc>``
 
-inoremap              <Tab>                         <C-R>=InsertTabWrapper()<CR>
-inoremap              <S-Tab>                       <C-N>
+inoremap              <Tab>                         <C-r>=InsertTabWrapper()<CR>
+inoremap              <S-Tab>                       <C-n>
 
 nnoremap              Q                             @q
-vnoremap              Q                             :norm @q<cr>
+vnoremap              Q                             :norm @q<CR>
 
-noremap               <C-w>t                        :tabnew<cr>
+noremap               <C-w>t                        :tabnew<CR>
 noremap               <S-l>                         gt
 noremap               <S-h>                         gT
 
-noremap               <expr><silent><Space><Space>  ":vertical res<cr>:res<cr>"
-noremap               <Space>=                      <C-w>=
-noremap               <Space>o                      <C-w>o
+noremap               <Leader>-                     :vertical res<CR>:res<CR>
+noremap               <Leader>=                     <C-w>=
+noremap               <Leader>o                     <C-w>o
 
 noremap               <F1>                          <Esc>
 inoremap              <F1>                          <Esc>
 
-noremap               <F4>                          :NERDTreeToggle<cr>
-noremap               <F3>                          :CtrlPTag<cr>
+noremap               <F4>                          :NERDTreeToggle<CR>
+noremap               <F3>                          :CtrlPTag<CR>
 
 noremap               <expr><F11>                   QuickToggleRelativeNumbers()
-noremap               <F12>                         :SyntasticToggleMode<cr>
+noremap               <F12>                         :SyntasticToggleMode<CR>
 
-noremap               <cr>                          :nohlsearch<cr>
+noremap               <CR>                          :nohlsearch<CR>
