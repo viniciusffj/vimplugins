@@ -1,4 +1,4 @@
-let mapleader="\\"
+let mapleader=" "
 set pastetoggle=<F2>
 
 noremap               <Up>                          <nop>
