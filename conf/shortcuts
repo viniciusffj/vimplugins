@@ -60,3 +60,4 @@ noremap               <expr><F11>                   QuickToggleRelativeNumbers()
 noremap               <F12>                         :SyntasticToggleMode<CR>
 
 noremap               <CR>                          :nohlsearch<CR>
+" vim: ft=vim

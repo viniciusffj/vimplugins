@@ -36,3 +36,5 @@ let g:startify_custom_header = [
      \ '',
      \ '',
      \ ]
+
+" vim: ft=vim

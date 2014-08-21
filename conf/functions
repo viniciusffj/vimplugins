@@ -32,3 +32,5 @@ function! QuickToggleRelativeNumbers()
 
 	return key
 endfunction
+
+" vim: ft=vim

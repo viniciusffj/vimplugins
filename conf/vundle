@@ -41,3 +41,5 @@ filetype plugin indent on
 "Clojure repl dependencies
 "Plugin 'tpope/vim-classpath'
 "Plugin 'tpope/vim-fireplace'
+
+" vim: ft=vim

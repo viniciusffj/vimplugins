@@ -26,3 +26,4 @@ filetype plugin on
 
 let g:ctrlp_working_path_mode = 'a'
 let g:slime_target = 'tmux'
+" vim: ft=vim

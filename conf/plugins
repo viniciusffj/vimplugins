@@ -2,3 +2,5 @@ let g:UltiSnipsListSnippets="<C-e>"
 let g:UltiSnipsExpandTrigger="<nokey>"
 let g:UltiSnipsJumpForwardTrigger="<nokey>"
 let g:UltiSnipsJumpBackwardTrigger="<nokey>"
+
+" vim: ft=vim
