@@ -20,21 +20,4 @@ let g:limelight_conceal_guifg = 'DarkGray'
 let g:limelight_conceal_guifg = '#777777'
 let g:limelight_default_coefficient = 0.7
 
-let g:ctrlp_reuse_window  = 'startify'
-hi StartifyHeader  ctermfg=203 guifg=#ff5f5f
-hi StartifyFooter  ctermfg=111 guifg=#87afff
-hi StartifyBracket ctermfg=240 guifg=#585858
-hi StartifyNumber  ctermfg=215 guifg=#ffaf5f
-hi StartifyPath    ctermfg=245 guifg=#8a8a8a
-hi StartifySlash   ctermfg=240 guifg=#585858
-let g:startify_custom_header = [
-     \ '    _    ___              _____ __ __   ',
-     \ '   | |  / (_)___ ___     /__  // // /   ',
-     \ '   | | / / / __ `__ \      / / // /_    ',
-     \ '   | |/ / / / / / / /     / /__  __/    ',
-     \ '   |___/_/_/ /_/ /_/     /_(_)/_/       ',
-     \ '',
-     \ '',
-     \ ]
-
 " vim: ft=vim

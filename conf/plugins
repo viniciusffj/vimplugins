@@ -1,0 +1,33 @@
+call plug#begin('~/.vim/plugged')
+
+" Foundation
+Plug 'vim-scripts/matchit.zip'
+Plug 'vim-scripts/Syntastic'
+Plug 'vim-scripts/repeat.vim'
+Plug 'tpope/vim-surround'
+
+" Tmux integration
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby' ] }
+
+" File navigation
+Plug 'vim-scripts/ctrlp.vim'
+Plug 'scrooloose/nerdtree', { 'on': [ 'NERDTree', 'NERDTreeToggle' ] }
+Plug 'mileszs/ack.vim', { 'on': 'Ack' }
+
+" UI
+Plug 'bling/vim-airline'
+Plug 'inside/vim-search-pulse'
+Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }
+
+" Syntax
+Plug 'vim-scripts/SyntaxRange', { 'on': 'SyntaxInclude' }
+Plug 'tpope/vim-markdown', { 'for': 'markdown' }
+Plug 'vim-scripts/scala.vim', { 'for': 'scala' }
+Plug 'vim-scripts/rainbow_parentheses.vim', { 'for': 'clojure' }
+Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
+Plug 'tfnico/vim-gradle', { 'for': 'gradle' }
+
+call plug#end()
+
+" vim: ft=vim

@@ -11,15 +11,6 @@ function! InsertTabWrapper()
 		return "\<tab>"
 	endif
 
-	if pumvisible() > 0
-		return "\<c-p>"
-	endif
-
-	call UltiSnips#ExpandSnippet()
-	if g:ulti_expand_res > 0
-		return ""
-	endif
-
 	return "\<c-p>"
 endfunction
 
