@@ -26,4 +26,10 @@ filetype plugin on
 
 let g:ctrlp_working_path_mode = 'a'
 let g:slime_target = 'tmux'
+
+let g:UltiSnipsListSnippets="<C-e>"
+let g:UltiSnipsExpandTrigger="<nokey>"
+let g:UltiSnipsJumpForwardTrigger="<nokey>"
+let g:UltiSnipsJumpBackwardTrigger="<nokey>"
+
 " vim: ft=vim
