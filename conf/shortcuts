@@ -1,8 +1,8 @@
 let mapleader=" "
 set pastetoggle=<F2>
 
-iabbrev ssig ---<CR>Erick Pintor<CR>erickpintor@gmail.com
-iabbrev Tssig ---<CR>Erick Pintor<CR>erickpintor@thoughtworks.com
+iabbrev Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
+iabbrev Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
 
 noremap               <Leader>ev                    :vsplit $MYVIMRC<CR>
 noremap               <Leader>sv                    :source $MYVIMRC<CR>
