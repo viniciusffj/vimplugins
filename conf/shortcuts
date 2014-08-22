@@ -1,11 +1,6 @@
 let mapleader=" "
 set pastetoggle=<F2>
 
-iabbrev Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
-iabbrev Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
-iabbrev Gbnm <C-r>=system("git branch --no-color \| grep --color=never '*' \| sed 's/[^A-Za-z0-9-]//g'")<CR><Up><End>
-iabbrev Pnm (Erick Pintor /)<Left>
-
 noremap               <Leader>ev                    :vsplit $MYVIMRC<CR>
 noremap               <Leader>sv                    :source $MYVIMRC<CR>
 
