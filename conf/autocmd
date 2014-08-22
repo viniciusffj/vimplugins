@@ -1,8 +1,12 @@
-" Editing COMMIT messages
 
 augroup git_commit_message
 	autocmd!
 	autocmd BufReadPre */COMMIT_EDITMSG :setlocal spell spelllang=en
+augroup END
+
+augroup email_messages
+	autocmd!
+	autocmd FileType mail :setlocal syntax=mail enc=utf-8 spell spelllang=en | Limelight
 augroup END
 
 " vim: ft=vim
