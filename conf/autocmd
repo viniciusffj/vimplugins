@@ -2,16 +2,16 @@
 augroup git_commit_message
 	autocmd!
 	autocmd BufReadPre */COMMIT_EDITMSG :setlocal spell spelllang=en
-		\ | iabbrev Gbnm <C-r>=system("git branch --no-color \| grep --color=never '*' \| sed 's/[^A-Za-z0-9-]//g'")<CR><Up><End>
-		\ | iabbrev Pnm (Erick Pintor /)<Left>
+		\ | iabbrev <buffer> Gbnm <C-r>=system("git branch --no-color \| grep --color=never '*' \| sed 's/[^A-Za-z0-9-]//g'")<CR><Up><End>
+		\ | iabbrev <buffer> Pnm (Erick Pintor /)<Left>
 augroup END
 
 augroup email_messages
 	autocmd!
 	autocmd FileType mail :setlocal syntax=mail enc=utf-8 spell spelllang=en 
 		\ | Limelight
-		\ | iabbrev Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
-		\ | iabbrev Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
+		\ | iabbrev <buffer> Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
+		\ | iabbrev <buffer> Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
 augroup END
 
 " vim: ft=vim
