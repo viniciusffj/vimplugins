@@ -9,11 +9,6 @@ iabbrev Pnm (Erick Pintor /)<Left>
 noremap               <Leader>ev                    :vsplit $MYVIMRC<CR>
 noremap               <Leader>sv                    :source $MYVIMRC<CR>
 
-noremap               <Up>                          <NOP>
-noremap               <Down>                        <NOP>
-noremap               <Left>                        <NOP>
-noremap               <Right>                       <NOP>
-
 noremap               <C-w>l                        :belowright vnew<CR>
 noremap               <C-w>h                        :aboveleft vnew<CR>
 noremap               <C-w>j                        :belowright new<CR>
@@ -43,8 +38,8 @@ nnoremap              Q                             @q
 vnoremap              Q                             :norm @q<CR>
 
 noremap               <C-w>t                        :tabnew<CR>
-noremap               <S-l>                         gt
-noremap               <S-h>                         gT
+noremap               <Leader>l                     gt
+noremap               <Leader>h                     gT
 
 noremap               <Leader>-                     :vertical res<CR>:res<CR>
 noremap               <Leader>=                     <C-w>=
