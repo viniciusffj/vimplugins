@@ -23,8 +23,8 @@ noremap               <Leader><Leader>2             :call SetUseSpaces(2)<CR>
 noremap               <Leader><Leader>4             :call SetUseSpaces(4)<CR>
 noremap               <Leader><Leader><Tab>         :call SetUseSpaces(4)<CR>:set noexpandtab<CR>
 
-noremap               <Leader><CR>                  m`o<Esc>``
-noremap               <Leader><Leader><CR>          m`O<Esc>``
+noremap               <Leader>o                     m`o<Esc>``
+noremap               <Leader>O                     m`O<Esc>``
 
 inoremap              <Tab>                         <C-r>=InsertTabWrapper()<CR>
 inoremap              <S-Tab>                       <C-n>
@@ -33,12 +33,8 @@ nnoremap              Q                             @q
 vnoremap              Q                             :norm @q<CR>
 
 noremap               <C-w>t                        :tabnew<CR>
-noremap               <Leader>l                     gt
-noremap               <Leader>h                     gT
 
-noremap               <Leader>-                     :vertical res<CR>:res<CR>
-noremap               <Leader>=                     <C-w>=
-noremap               <Leader>o                     <C-w>o
+noremap               <C-w>m                        :vertical res<CR>:res<CR>
 
 noremap               <F1>                          <Esc>
 inoremap              <F1>                          <Esc>
@@ -50,4 +46,5 @@ noremap               <expr><F11>                   QuickToggleRelativeNumbers()
 noremap               <F12>                         :SyntasticToggleMode<CR>
 
 noremap               <CR>                          :nohlsearch<CR>
+
 " vim: ft=vim
