@@ -14,14 +14,4 @@ function! InsertTabWrapper()
 	return "\<c-p>"
 endfunction
 
-function! QuickToggleRelativeNumbers()
-	set relativenumber!
-	redraw
-
-	let key = nr2char(getchar())
-	set relativenumber!
-
-	return key
-endfunction
-
 " vim: ft=vim

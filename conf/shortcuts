@@ -42,7 +42,6 @@ inoremap              <F1>                          <Esc>
 noremap               <F4>                          :NERDTreeToggle<CR>
 noremap               <F3>                          :CtrlPTag<CR>
 
-noremap               <expr><F11>                   QuickToggleRelativeNumbers()
 noremap               <F12>                         :SyntasticToggleMode<CR>
 
 noremap               <CR>                          :nohlsearch<CR>
