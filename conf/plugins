@@ -15,6 +15,7 @@ Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby' ] }
 
 " File navigation
 Plug 'vim-scripts/ctrlp.vim'
+Plug 'bling/vim-bufferline'
 Plug 'scrooloose/nerdtree', { 'on': [ 'NERDTree', 'NERDTreeToggle' ] }
 Plug 'mileszs/ack.vim', { 'on': 'Ack' }
 
