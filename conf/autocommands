@@ -14,6 +14,8 @@ augroup email_messages
 				\| iabbrev <buffer> Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
 				\| iabbrev <buffer> Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
 				\| Limelight
+				\| execute "normal! O"
+				\| startinsert!
 augroup END
 
 " vim: ft=vim
