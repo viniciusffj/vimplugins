@@ -13,6 +13,7 @@ augroup email_messages
 	autocmd FileType mail :setlocal syntax=mail enc=utf-8 spell spelllang=en
 				\| iabbrev <buffer> Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
 				\| iabbrev <buffer> Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
+				\| iabbrev <buffer> Pnm Erick Pintor and paring.<C-o>F<Space>
 				\| Limelight
 				\| execute "normal! O"
 				\| startinsert!
