@@ -36,6 +36,9 @@ noremap               <C-w>t                        :tabnew<CR>
 
 noremap               <C-w>m                        :vertical res<CR>:res<CR>
 
+noremap               <Leader>g                     :silent execute "grep! -R " . shellescape(expand("<cWORD>")) . " ."<CR>:copen<CR>
+noremap               <Leader>a                     :silent execute "Ack! " . shellescape(expand("<cWORD>"))<CR>
+
 noremap               <F1>                          <Esc>
 inoremap              <F1>                          <Esc>
 
