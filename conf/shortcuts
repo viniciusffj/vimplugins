@@ -44,6 +44,6 @@ noremap               <F3>                          :CtrlPTag<CR>
 
 noremap               <F12>                         :SyntasticToggleMode<CR>
 
-noremap               <CR>                          :nohlsearch<CR>
+noremap               <CR>                          :set hlsearch!<CR>
 
 " vim: ft=vim
