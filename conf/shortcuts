@@ -1,4 +1,5 @@
 let mapleader=" "
+let mallocalleader=" "
 set pastetoggle=<F2>
 
 noremap               <Leader>ev                    :vsplit $MYVIMRC<CR>
