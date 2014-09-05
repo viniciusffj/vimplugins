@@ -12,9 +12,6 @@ noremap               <C-w>k                        :aboveleft new<CR>
 noremap               ]q                            :cn<CR>
 noremap               [q                            :cp<CR>
 
-noremap               <Leader>r                     :%s/\C<C-r>=expand("<cword>")<CR>/<C-r>=expand("<cword>")<CR>/gc<left><left><left>
-noremap               <Leader><Leader>r             :%s/\C<C-r>=expand("<cword>")<CR>//gc<left><left><left>
-
 noremap               <Leader>y                     "+y
 noremap               <Leader>p                     "+p
 noremap               <Leader>P                     "+P
@@ -33,18 +30,20 @@ nnoremap              Q                             @q
 vnoremap              Q                             :norm @q<CR>
 
 noremap               <C-w>t                        :tabnew<CR>
-
 noremap               <C-w>m                        :vertical res<CR>:res<CR>
 
 noremap               <Leader>g                     :silent execute "grep! -R " . shellescape(expand("<cWORD>")) . " ."<CR>:copen<CR>
 noremap               <Leader>a                     :silent execute "Ack! " . shellescape(expand("<cWORD>"))<CR>
 
+noremap               <Leader>r                     :%s/\C<C-r>=expand("<cword>")<CR>/<C-r>=expand("<cword>")<CR>/gc<left><left><left>
+noremap               <Leader><Leader>r             :%s/\C<C-r>=expand("<cword>")<CR>//gc<left><left><left>
+
+noremap               <Leader>b                     :CtrlPBuffer<CR>
+noremap               <Leader>t                     :CtrlPTag<CR>
+
 noremap               <F1>                          <Esc>
 inoremap              <F1>                          <Esc>
-
 noremap               <F4>                          :NERDTreeToggle<CR>
-noremap               <F3>                          :CtrlPTag<CR>
-
 noremap               <F12>                         :SyntasticToggleMode<CR>
 
 noremap               <CR>                          :set hlsearch!<CR>
