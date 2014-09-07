@@ -1,7 +1,9 @@
-noremap  <Leader>a :set operatorfunc=AckOperator<CR>g@
-vnoremap <Leader>a :<C-u>call AckOperator(visualmode())<CR>
+noremap  <Leader>a :set operatorfunc=<SID>AckOperator<CR>g@
+vnoremap <Leader>a :<C-u>call <SID>AckOperator(visualmode())<CR>
 
-function! AckOperator(type)
+function! s:AckOperator(type)
+	let old_clipboard = @@
+
 	if a:type ==# 'v'
 		execute "normal! `<v`>y"
 	elseif a:type ==# 'char'
@@ -12,4 +14,6 @@ function! AckOperator(type)
 
 	silent execute "Ack " . shellescape(@@) . " ."
 	copen
+
+	let @@ = old_clipboard
 endfunction
