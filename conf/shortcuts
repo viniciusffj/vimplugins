@@ -33,9 +33,6 @@ vnoremap              Q                             :norm @q<CR>
 noremap               <C-w>t                        :tabnew<CR>
 noremap               <C-w>m                        :vertical res<CR>:res<CR>
 
-noremap               <Leader>r                     :%s/\C<C-r>=expand("<cword>")<CR>/<C-r>=expand("<cword>")<CR>/gc<left><left><left>
-noremap               <Leader><Leader>r             :%s/\C<C-r>=expand("<cword>")<CR>//gc<left><left><left>
-
 noremap               <Leader>b                     :CtrlPBuffer<CR>
 noremap               <Leader>t                     :CtrlPTag<CR>
 
