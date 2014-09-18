@@ -17,7 +17,4 @@ endif
 
 " Start up
 AirlineToggle
-IndexTaggedNotes
-
-" Initial view
 RecentNotes
