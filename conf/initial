@@ -13,6 +13,7 @@ set nobackup
 set lazyredraw
 set mousehide
 set wildmenu
+set noswapfile
 
 set encoding=utf-8
 set laststatus=2
