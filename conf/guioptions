@@ -7,7 +7,7 @@ endif
 set title
 set background=dark
 set t_Co=256
-set listchars=tab:>-,trail:·,eol:$,precedes:<,extends:>
+set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 
 let g:airline_theme='ubaryd'
 let g:airline_left_sep = '▶'
