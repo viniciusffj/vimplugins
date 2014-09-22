@@ -14,6 +14,8 @@ noremap               <C-w>k                        :aboveleft new<CR>
 
 noremap               ]q                            :cn<CR>
 noremap               [q                            :cp<CR>
+noremap               ]b                            :bn<CR>
+noremap               [b                            :bp<CR>
 
 noremap               <Leader>y                     "+y
 noremap               <Leader>p                     "+p
