@@ -12,9 +12,14 @@ call plug#end()
 
 if !exists('g:loaded_notes')
 	PlugInstall
-	silent execute ':q!'
+	silent quit!
 endif
 
 " Start up
+set nonumber
+iabbrev T TODO
+noremap <Leader>td :s/TODO/DONE/<CR>
+noremap <Leader>tu :s/DONE/TODO/<CR>
+
 AirlineToggle
-RecentNotes
+silent RecentNotes
