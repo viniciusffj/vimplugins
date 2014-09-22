@@ -1,6 +1,6 @@
 " Rename {{{
-noremap  <Leader>r :set operatorfunc=<SID>RenameOperator<CR>g@
-vnoremap <Leader>r :<C-u>call <SID>RenameOperator(visualmode())<CR>
+noremap  <silent><Leader>r :set operatorfunc=<SID>RenameOperator<CR>g@
+vnoremap <silent><Leader>r :<C-u>call <SID>RenameOperator(visualmode())<CR>
 
 function! s:RenameOperator(type)
 	let word = <SID>GetWord(a:type)
