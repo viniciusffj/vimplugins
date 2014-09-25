@@ -5,7 +5,8 @@ augroup END
 
 augroup git_commit_message
 	autocmd!
-	autocmd BufReadPre */COMMIT_EDITMSG :setlocal spell spelllang=en
+	autocmd BufReadPre */COMMIT_EDITMSG setlocal spell spelllang=en
+				\| setlocal textwidth=0
 				\| iabbrev <buffer> Gbnm <C-r>=system("git branch --no-color \| grep --color=never '*' \| sed -e 's/[^A-Za-z0-9-]//g'")<CR><Up><End>
 				\| iabbrev <buffer> Pnm (Erick Pintor /)<Left>
 				\| iabbrev <buffer> wipp (WIP)
@@ -14,7 +15,7 @@ augroup END
 
 augroup email_messages
 	autocmd!
-	autocmd FileType mail :setlocal syntax=mail enc=utf-8 spell spelllang=en
+	autocmd FileType mail setlocal syntax=mail enc=utf-8 spell spelllang=en
 				\| iabbrev <buffer> Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
 				\| iabbrev <buffer> Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
 				\| iabbrev <buffer> Pnm Erick Pintor and paring.<C-o>F<Space>

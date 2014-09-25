@@ -8,7 +8,11 @@ endif
 set title
 set background=dark
 set t_Co=256
-set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮,trail:⌴
+set showbreak=↪\ 
+set colorcolumn=+1
+set fillchars=diff:⣿,vert:│
+set fillchars=diff:⣿,vert:\|
 
 let g:airline_theme='ubaryd'
 let g:airline_left_sep = '▶'

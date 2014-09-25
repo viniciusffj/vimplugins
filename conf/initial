@@ -3,25 +3,33 @@ syntax enable
 set hidden
 set number
 set incsearch
+set ignorecase
+set smartcase
 set smartindent
 set autoindent
-set ignorecase
 set nowrap
+set linebreak
 set showmatch
 set showcmd
 set nobackup
-set lazyredraw
+set noswapfile
 set mousehide
 set wildmenu
-set noswapfile
+set ttyfast
+set lazyredraw
+set notimeout
+set ttimeout
+set ttimeoutlen=10
 
+set complete=.,w,b,u,t
+set completeopt=longest,menuone,preview
+set wildmode=list:longest
 set encoding=utf-8
 set laststatus=2
 set tabstop=4
 set shiftwidth=4
 
-filetype indent on
-filetype plugin on
+filetype indent plugin on
 
 let g:ctrlp_working_path_mode = 'a'
 let g:slime_target = 'tmux'

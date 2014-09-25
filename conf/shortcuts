@@ -45,7 +45,13 @@ inoremap              <F1>                          <Esc>
 noremap               <F4>                          :NERDTreeToggle<CR>
 noremap               <F12>                         :SyntasticToggleMode<CR>
 
-noremap               <Leader><CR>                  :set hlsearch!<CR>
+noremap               <Leader>l                     :set list!<CR>
+noremap               <Leader><Leader>              :set hlsearch!<CR>
+
 noremap               <silent><C-n>                 :call search_pulse#Pulse()<CR>
+noremap               /                             /\v
+vnoremap              /                             /\v
+noremap               ?                             ?\v
+vnoremap              ?                             ?\v
 
 " vim: ft=vim
