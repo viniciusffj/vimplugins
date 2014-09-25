@@ -20,7 +20,7 @@ Plug 'scrooloose/nerdtree', { 'on': [ 'NERDTree', 'NERDTreeToggle' ] }
 Plug 'mileszs/ack.vim', { 'on': 'Ack' }
 
 " UI
-Plug 'altercation/vim-colors-solarized'
+Plug 'tomasr/molokai'
 Plug 'bling/vim-airline'
 Plug 'inside/vim-search-pulse'
 Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }

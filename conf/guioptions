@@ -2,7 +2,7 @@ if has("gui_macvim")
 	colorscheme slate
 	set guicursor+=a:blinkon0
 else
-	colorscheme solarized
+	colorscheme molokai
 endif
 
 set title
