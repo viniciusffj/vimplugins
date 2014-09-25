@@ -7,7 +7,6 @@ set ignorecase
 set smartcase
 set smartindent
 set autoindent
-set nowrap
 set linebreak
 set showmatch
 set showcmd
