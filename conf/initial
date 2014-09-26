@@ -18,8 +18,8 @@ set ttyfast
 set lazyredraw
 set notimeout
 set ttimeout
-set ttimeoutlen=10
 
+set ttimeoutlen=10
 set complete=.,w,b,u,t
 set completeopt=longest,menuone,preview
 set wildmode=list:longest
