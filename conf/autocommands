@@ -34,7 +34,7 @@ augroup define_colorcolumn
 			colorRange = range(&textwidth + 1, 999)
 		endif
 
-		let &colorcolumn = join(colorRange, ',')
+		let &l:colorcolumn = join(colorRange, ',')
 	endfunction
 
 	autocmd BufReadPre * call <SID>DefineLocalColorColumn()
