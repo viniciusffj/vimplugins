@@ -11,6 +11,7 @@ set background=dark
 set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮,trail:⌴
 set showbreak=↪\ 
 
+set colorcolumn=+1
 highlight ColorColumn ctermbg=234
 
 let g:airline_theme='ubaryd'

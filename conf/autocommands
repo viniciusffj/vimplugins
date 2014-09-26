@@ -16,7 +16,6 @@ augroup END
 augroup email_messages
 	autocmd!
 	autocmd FileType mail setlocal syntax=mail enc=utf-8 spell spelllang=en
-				\| let &colorcolumn=join(range(&textwidth + 1, 999), ',')
 				\| iabbrev <buffer> Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
 				\| iabbrev <buffer> Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
 				\| iabbrev <buffer> Pnm Erick Pintor and paring.<C-o>F<Space>
@@ -25,18 +24,10 @@ augroup email_messages
 				\| startinsert!
 augroup END
 
-augroup define_colorcolumn
+augroup textwidth_per_filetype
 	autocmd!
-
-	function! s:DefineLocalColorColumn()
-		let colorRange = range(151, 999)
-		if &textwidth > 0
-			colorRange = range(&textwidth + 1, 999)
-		endif
-
-		let &l:colorcolumn = join(colorRange, ',')
-	endfunction
-
-	autocmd BufReadPre * call <SID>DefineLocalColorColumn()
+	autocmd FileType vim  setlocal textwidth=150
+	autocmd FileType sh   setlocal textwidth=150
+	autocmd FileType java setlocal textwidth=120
 augroup END
 " vim: ft=vim
