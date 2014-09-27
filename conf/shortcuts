@@ -8,6 +8,7 @@ noremap               <Leader>en                    :vsplit $HOME/.vim/scripts/n
 noremap               <Leader>sn                    :source $HOME/.vim/scripts/notes.vim<CR>
 noremap               <Leader>ep                    :vsplit $HOME/.vim/scripts/presentation.vim<CR>
 noremap               <Leader>sp                    :source $HOME/.vim/scripts/presentation.vim<CR>
+noremap               <Leader>es                    :vsplit $HOME/.vim/skeletons<CR>
 
 noremap               <C-w>l                        :belowright vnew<CR>
 noremap               <C-w>h                        :aboveleft vnew<CR>
@@ -51,4 +52,5 @@ noremap               <Leader>l                     :set list!<CR>
 noremap               <Leader>h                     :set hlsearch!<CR>
 noremap               <silent><C-n>                 :call search_pulse#Pulse()<CR>
 
+noremap               <Leader>W                     :%s/\v\s+$//<CR>
 " vim: ft=vim
