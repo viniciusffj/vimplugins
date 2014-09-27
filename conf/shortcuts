@@ -6,6 +6,8 @@ noremap               <Leader>ev                    :vsplit $MYVIMRC<CR>
 noremap               <Leader>sv                    :source $MYVIMRC<CR>
 noremap               <Leader>en                    :vsplit $HOME/.vim/scripts/notes.vim<CR>
 noremap               <Leader>sn                    :source $HOME/.vim/scripts/notes.vim<CR>
+noremap               <Leader>ep                    :vsplit $HOME/.vim/scripts/presentation.vim<CR>
+noremap               <Leader>sp                    :source $HOME/.vim/scripts/presentation.vim<CR>
 
 noremap               <C-w>l                        :belowright vnew<CR>
 noremap               <C-w>h                        :aboveleft vnew<CR>
