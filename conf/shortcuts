@@ -53,4 +53,5 @@ noremap               <Leader>h                     :set hlsearch!<CR>
 noremap               <silent><C-n>                 :call search_pulse#Pulse()<CR>
 
 noremap               <Leader>W                     :%s/\v\s+$//<CR>
+
 " vim: ft=vim
