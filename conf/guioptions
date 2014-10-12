@@ -8,7 +8,7 @@ endif
 set title
 set t_Co=256
 set background=dark
-set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮,trail:⌴
+set listchars=tab:\|\ ,eol:¬,extends:❯,precedes:❮,trail:⌴
 set showbreak=↪\ 
 
 set colorcolumn=+1
