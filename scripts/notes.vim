@@ -18,8 +18,11 @@ endif
 " Start up
 set nonumber
 iabbrev T TODO
-noremap <Leader>td :s/TODO/DONE/<CR>
-noremap <Leader>tu :s/DONE/TODO/<CR>
+noremap <Leader>td :s/TODO/DONE/<CR>yy}P``dd
+noremap <Leader>tu :s/DONE/TODO/<CR>dd{jp
+noremap <Leader>tC :g/\CDONE/d<CR>
+noremap <C-j>      ddp
+noremap <C-k>      ddkP
 
 AirlineToggle
 silent RecentNotes
