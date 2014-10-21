@@ -11,7 +11,7 @@ Plug 'takac/vim-hardtime'
 
 " Tmux integration
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby' ] }
+Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby', 'javascript' ] }
 
 " File navigation
 Plug 'vim-scripts/ctrlp.vim'
