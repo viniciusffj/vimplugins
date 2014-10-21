@@ -53,5 +53,6 @@ noremap               <Leader>h                     :set hlsearch!<CR>
 noremap               <silent><C-n>                 :call search_pulse#Pulse()<CR>
 
 noremap               <Leader>W                     :%s/\v\s+$//<CR>
+noremap               <Leader>C                     :!ctags -R .<CR>
 
 " vim: ft=vim
