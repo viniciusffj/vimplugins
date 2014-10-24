@@ -4,10 +4,13 @@
 let g:notes_directories = [ '~/Dropbox/Notes' ]
 let g:notes_suffix = '.txt'
 let g:notes_title_sync = 'rename_file'
+let g:auto_save_in_insert_mode = 0
+let g:auto_save = 1
 
 " Plugins
 Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc'
+Plug 'vim-scripts/vim-auto-save'
 call plug#end()
 
 if !exists('g:loaded_notes')
