@@ -30,6 +30,7 @@ Plug 'vim-scripts/SyntaxRange', { 'for': 'markdown' }
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
 Plug 'vim-scripts/scala.vim', { 'for': 'scala' }
 Plug 'vim-scripts/rainbow_parentheses.vim', { 'for': 'clojure' }
+Plug 'kovisoft/paredit', { 'for': 'clojure' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'tfnico/vim-gradle', { 'for': 'groovy' }
 
