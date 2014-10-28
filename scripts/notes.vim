@@ -28,4 +28,4 @@ noremap <C-j>      ddp
 noremap <C-k>      ddkP
 
 AirlineToggle
-silent RecentNotes
+silent Note Global TODO List
