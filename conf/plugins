@@ -6,9 +6,6 @@ Plug 'vim-scripts/Syntastic'
 Plug 'vim-scripts/repeat.vim'
 Plug 'tpope/vim-surround'
 
-" Motions
-Plug 'takac/vim-hardtime'
-
 " Tmux integration
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby', 'javascript' ] }

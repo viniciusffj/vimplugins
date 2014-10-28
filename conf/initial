@@ -31,7 +31,6 @@ filetype indent plugin on
 
 let g:ctrlp_working_path_mode = 'a'
 let g:slime_target = 'tmux'
-let g:hardtime_default_on = 1
 let g:airline#extensions#bufferline#enabled = 0
 let g:vim_search_pulse_mode = 'pattern'
 
