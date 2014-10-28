@@ -27,8 +27,13 @@ function! s:AckOperator(type)
 		return
 	endif
 
-	silent execute "Ack " . shellescape(word) . " ."
+	silent set hlsearch
+	let @/= '\C' . word
+
+	silent execute "Ack " . shellescape(word) . " . --ignore-file='is:tags'"
 	copen
+
+	redraw
 endfunction
 " }}}
 
