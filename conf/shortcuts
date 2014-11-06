@@ -17,6 +17,8 @@ noremap               <C-w>k                        :aboveleft new<CR>
 
 noremap               ]q                            :cn<CR>
 noremap               [q                            :cp<CR>
+noremap               ]f                            :cnfile<CR>
+noremap               [f                            :cpfile<CR>
 noremap               ]b                            :bn<CR>
 noremap               [b                            :bp<CR>
 
