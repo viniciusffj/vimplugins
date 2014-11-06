@@ -31,8 +31,6 @@ function! s:AckOperator(type)
 	let @/= '\C' . word
 
 	silent execute "Ack " . shellescape(word) . " . --ignore-file='is:tags'"
-	copen
-
 	redraw
 endfunction
 " }}}
