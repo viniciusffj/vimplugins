@@ -17,6 +17,8 @@ set ttyfast
 set lazyredraw
 set notimeout
 set ttimeout
+set noerrorbells 
+set visualbell 
 
 set ttimeoutlen=10
 set complete=.,w,b,u,t
@@ -26,6 +28,7 @@ set encoding=utf-8
 set laststatus=2
 set tabstop=4
 set shiftwidth=4
+set t_vb=
 
 filetype indent plugin on
 
