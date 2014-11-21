@@ -25,11 +25,18 @@ augroup email_messages
 				\| startinsert!
 augroup END
 
+augroup javascript
+	autocmd!
+	autocmd FileType javascript setlocal textwidth=150
+				\| iabbrev <buffer> fn function
+				\| iabbrev <buffer> cl console.log
+augroup END
+
 augroup textwidth_per_filetype
 	autocmd!
-	autocmd FileType vim        setlocal textwidth=150
-	autocmd FileType sh         setlocal textwidth=150
-	autocmd FileType javascript setlocal textwidth=150
-	autocmd FileType java       setlocal textwidth=120
+	autocmd FileType vim  setlocal textwidth=150
+	autocmd FileType sh   setlocal textwidth=150
+	autocmd FileType java setlocal textwidth=120
 augroup END
+
 " vim: ft=vim
