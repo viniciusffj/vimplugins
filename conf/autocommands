@@ -25,6 +25,12 @@ augroup email_messages
 				\| startinsert!
 augroup END
 
+augroup ruby
+	autocmd!
+	autocmd FileType ruby setlocal textwidth=150
+				\| iabbrev <buffer> pry require 'pry-debugger'; binding.pry
+augroup END
+
 augroup javascript
 	autocmd!
 	autocmd FileType javascript setlocal textwidth=150
