@@ -59,4 +59,6 @@ noremap               <Leader>C                     :!ctags -R .<CR>
 noremap               <Leader>x                     :Explore<CR>
 noremap               <Leader>S                     :set spell!<CR>
 
+imap                  <C-d>                         <Plug>(endoscope-close-pair)
+
 " vim: ft=vim
