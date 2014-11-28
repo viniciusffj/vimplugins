@@ -5,6 +5,7 @@ Plug 'vim-scripts/matchit.zip'
 Plug 'vim-scripts/Syntastic'
 Plug 'vim-scripts/repeat.vim'
 Plug 'tpope/vim-surround'
+Plug 'idbrii/vim-endoscope'
 
 " Tmux integration
 Plug 'christoomey/vim-tmux-navigator'
