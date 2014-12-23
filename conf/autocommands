@@ -38,6 +38,11 @@ augroup javascript
 				\| iabbrev <buffer> cl console.log
 augroup END
 
+augroup io
+	autocmd!
+	autocmd BufReadPre *.io setfiletype io
+augroup END
+
 augroup textwidth_per_filetype
 	autocmd!
 	autocmd FileType vim  setlocal textwidth=150
