@@ -40,7 +40,7 @@ augroup END
 
 augroup io
 	autocmd!
-	autocmd BufReadPre *.io setfiletype io
+	autocmd BufReadPre,BufNew *.io setfiletype io
 augroup END
 
 augroup textwidth_per_filetype
