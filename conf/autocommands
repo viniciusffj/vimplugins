@@ -29,6 +29,7 @@ augroup ruby
 	autocmd!
 	autocmd FileType ruby setlocal textwidth=150
 				\| iabbrev <buffer> pry require 'pry-debugger'; binding.pry
+				\| iabbrev <buffer> gpry gem 'pry-debugger'
 augroup END
 
 augroup javascript
