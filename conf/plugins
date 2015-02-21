@@ -8,7 +8,7 @@ Plug 'tpope/vim-surround'
 Plug 'idbrii/vim-endoscope'
 
 " Tmux integration
-Plug 'christoomey/vim-tmux-navigator'
+"Plug 'christoomey/vim-tmux-navigator'
 Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby', 'javascript' ] }
 
 " File navigation
