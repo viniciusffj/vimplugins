@@ -29,6 +29,7 @@ Plug 'vim-scripts/scala.vim', { 'for': 'scala' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'tfnico/vim-gradle', { 'for': 'groovy' }
 Plug 'vim-scripts/Io-programming-language-syntax', { 'for': 'io' }
+Plug 'vim-scripts/vim-coffee-script', { 'for': 'coffee' }
 
 call plug#end()
 
