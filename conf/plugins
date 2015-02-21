@@ -31,6 +31,11 @@ Plug 'tfnico/vim-gradle', { 'for': 'groovy' }
 Plug 'vim-scripts/Io-programming-language-syntax', { 'for': 'io' }
 Plug 'vim-scripts/vim-coffee-script', { 'for': 'coffee' }
 
+" Notes
+Plug 'vim-scripts/vim-auto-save', { 'on': 'RecentNotes' }
+Plug 'xolox/vim-misc', { 'on': 'RecentNotes' }
+Plug 'xolox/vim-notes', { 'on': 'RecentNotes' }
+
 call plug#end()
 
 " vim: ft=vim
