@@ -20,5 +20,4 @@ noremap <Leader>ti 0wiTODO <Esc>
 noremap <C-j>      ddp
 noremap <C-k>      ddkP
 
-AirlineToggle
 silent RecentNotes

@@ -15,7 +15,7 @@ set colorcolumn=+1
 highlight ColorColumn ctermbg=234
 highlight TabLineFill ctermfg=Black
 
-let g:airline_theme='ubaryd'
+let g:airline_theme='monochrome'
 let g:airline_left_sep = '▶'
 let g:airline_right_sep = '◀'
 
