@@ -5,7 +5,7 @@ augroup END
 
 augroup git_commit_message
 	autocmd!
-	autocmd BufReadPre */COMMIT_EDITMSG setlocal spell spelllang=en
+	autocmd BufReadPre */COMMIT_EDITMSG setlocal spelllang=en
 				\| setlocal textwidth=0
 				\| iabbrev <buffer> Gbnm <C-r>=system("git branch --no-color \| grep --color=never '*' \| sed -e 's/[^A-Za-z0-9-]//g'")<CR><Up><End>
 				\| iabbrev <buffer> Pnm (Erick Pintor /)<Left>
