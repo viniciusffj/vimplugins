@@ -32,7 +32,7 @@ Plug 'vim-scripts/Io-programming-language-syntax', { 'for': 'io' }
 Plug 'vim-scripts/vim-coffee-script', { 'for': 'coffee' }
 
 " Notes
-Plug 'vim-scripts/vim-auto-save', { 'on': 'RecentNotes' }
+Plug 'vim-scripts/vim-auto-save', { 'on': [ 'RecentNotes', 'AutoSaveToggle' ] }
 Plug 'xolox/vim-misc', { 'on': 'RecentNotes' }
 Plug 'xolox/vim-notes', { 'on': 'RecentNotes' }
 
