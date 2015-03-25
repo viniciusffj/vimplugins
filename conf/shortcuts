@@ -6,11 +6,6 @@ noremap               <Leader>ev                    :vsplit $MYVIMRC<CR>
 noremap               <Leader>sn                    :source $HOME/.vim/scripts/notes.vim<CR>
 noremap               <Leader>sp                    :source $HOME/.vim/scripts/presentation.vim<CR>
 
-noremap               <C-w>l                        :belowright vnew<CR>
-noremap               <C-w>h                        :aboveleft vnew<CR>
-noremap               <C-w>j                        :belowright new<CR>
-noremap               <C-w>k                        :aboveleft new<CR>
-
 noremap               ]q                            :cn<CR>
 noremap               [q                            :cp<CR>
 noremap               ]f                            :cnfile<CR>
@@ -35,10 +30,6 @@ inoremap              <S-Tab>                       <C-n>
 nnoremap              Q                             @q
 vnoremap              Q                             :norm @q<CR>
 
-noremap               <C-w>t                        :tabnew<CR>
-noremap               <C-w>m                        :vertical res<CR>:res<CR>
-
-noremap               <Leader>b                     :CtrlPBuffer<CR>
 noremap               <Leader>t                     :CtrlPTag<CR>
 
 noremap               <F1>                          <Esc>
@@ -55,7 +46,5 @@ noremap               <Leader>w                     :set wrap!<CR>
 noremap               <Leader>C                     :!ctags -R .<CR>
 noremap               <Leader>x                     :Explore<CR>
 noremap               <Leader>S                     :set spell!<CR>
-
-imap                  <C-d>                         <Plug>(endoscope-close-pair)
 
 " vim: ft=vim
