@@ -1,6 +1,7 @@
 augroup filetype_vim
 	autocmd!
 	autocmd FileType vim setlocal foldmethod=marker
+	autocmd BufWritePost */.vim/** source $MYVIMRC
 augroup END
 
 augroup git_commit_message
