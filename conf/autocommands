@@ -11,7 +11,8 @@ augroup git_commit_message
 				\| iabbrev <buffer> Gbnm <C-r>=system("git branch --no-color \| grep --color=never '*' \| sed -e 's/[^A-Za-z0-9-]//g'")<CR><Up><End>
 				\| iabbrev <buffer> Pnm (Erick Pintor /)<Left>
 				\| iabbrev <buffer> Dnm [Erick Pintor]<Left>
-				\| iabbrev <buffer> wipp (WIP)
+				\| iabbrev <buffer> wpp (WIP)
+				\| iabbrev <buffer> sci [skip ci]
 				\| startinsert!
 augroup END
 
