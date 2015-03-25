@@ -1,11 +1,5 @@
-if has("gui_macvim")
-	colorscheme slate
-	set guicursor+=a:blinkon0
-else
-	colorscheme molokai
-endif
+colorscheme molokai
 
-set title
 set t_Co=256
 set background=dark
 set listchars=tab:\|\ ,eol:¬,extends:❯,precedes:❮,trail:⌴
