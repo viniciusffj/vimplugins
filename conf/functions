@@ -5,13 +5,4 @@ function! SetUseSpaces(spaces)
 	echo "Using " . a:spaces . " spaces instead of tab"
 endfunction
 
-function! InsertTabWrapper()
-	let col = col('.') - 1
-	if !col || getline('.')[col - 1] !~ '\k'
-		return "\<tab>"
-	endif
-
-	return "\<c-p>"
-endfunction
-
 " vim: ft=vim
