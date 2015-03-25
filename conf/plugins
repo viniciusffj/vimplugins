@@ -7,7 +7,6 @@ Plug 'vim-scripts/repeat.vim'
 Plug 'vim-scripts/SearchComplete'
 Plug 'vim-scripts/CmdlineComplete'
 Plug 'tpope/vim-surround'
-Plug 'idbrii/vim-endoscope'
 
 " Tmux integration
 Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby', 'javascript' ] }
