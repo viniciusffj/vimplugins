@@ -15,8 +15,8 @@ noremap <Leader>tu :s/DONE/TODO/<CR>dd{jp
 noremap <Leader>tC :g/\CDONE/d<CR>
 noremap <Leader>tt gg/Tomorrow:<CR>jd}{P
 noremap <Leader>tw dd/Tomorrow:<CR>}P
-noremap <Leader>tu dd/Upcoming:<CR>}P
-noremap <Leader>ti 0wiTODO <Esc>
+noremap <Leader>tU dd/Upcoming:<CR>}P
+noremap <Leader>ti ^iTODO <Esc>
 noremap <C-j>      ddp
 noremap <C-k>      ddkP
 
