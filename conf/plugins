@@ -36,6 +36,9 @@ Plug 'vim-scripts/vim-auto-save', { 'on': [ 'RecentNotes', 'AutoSaveToggle' ] }
 Plug 'xolox/vim-misc', { 'on': 'RecentNotes' }
 Plug 'xolox/vim-notes', { 'on': 'RecentNotes' }
 
+" Spell check
+Plug 'mateusbraga/vim-spell-pt-br'
+
 call plug#end()
 
 " vim: ft=vim
