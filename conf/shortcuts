@@ -6,6 +6,7 @@ noremap               fd                            <Esc>
 inoremap              fd                            <Esc>
 vnoremap              fd                            <Esc>
 cnoremap              fd                            <C-c>
+cnoremap              <C-g>                         <C-c>
 
 noremap               <Leader>ev                    :vsplit $MYVIMRC<CR>
 noremap               <Leader>sn                    :source $HOME/.vim/scripts/notes.vim<CR>
