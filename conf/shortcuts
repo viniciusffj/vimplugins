@@ -10,7 +10,6 @@ cnoremap              <C-g>                         <C-c>
 
 noremap               <Leader>ev                    :vsplit $MYVIMRC<CR>
 noremap               <Leader>sn                    :source $HOME/.vim/scripts/notes.vim<CR>
-noremap               <Leader>sp                    :source $HOME/.vim/scripts/presentation.vim<CR>
 
 noremap               ]q                            :cn<CR>
 noremap               [q                            :cp<CR>
@@ -28,8 +27,6 @@ noremap               <Leader>O                     m`O<Esc>``
 
 nnoremap              Q                             @q
 vnoremap              Q                             :norm @q<CR>
-
-noremap               <Leader>t                     :CtrlPTag<CR>
 
 noremap               <F1>                          <Esc>
 inoremap              <F1>                          <Esc>
