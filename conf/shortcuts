@@ -23,10 +23,6 @@ noremap               <Leader>y                     "+y
 noremap               <Leader>p                     "+p
 noremap               <Leader>P                     "+P
 
-noremap               <Leader><Leader>2             :call SetUseSpaces(2)<CR>
-noremap               <Leader><Leader>4             :call SetUseSpaces(4)<CR>
-noremap               <Leader><Leader><Tab>         :call SetUseSpaces(4)<CR>:set noexpandtab<CR>
-
 noremap               <Leader>o                     m`o<Esc>``
 noremap               <Leader>O                     m`O<Esc>``
 
