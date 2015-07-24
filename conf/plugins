@@ -9,7 +9,7 @@ Plug 'tpope/vim-surround'
 Plug 'ervandew/supertab'
 
 " Tmux integration
-Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby', 'javascript' ] }
+Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby', 'javascript', 'python' ] }
 
 " File navigation
 Plug 'vim-scripts/ctrlp.vim'
@@ -31,6 +31,10 @@ Plug 'tfnico/vim-gradle', { 'for': 'groovy' }
 Plug 'vim-scripts/vim-auto-save', { 'on': [ 'RecentNotes', 'AutoSaveToggle' ] }
 Plug 'xolox/vim-misc', { 'on': 'RecentNotes' }
 Plug 'xolox/vim-notes', { 'on': 'RecentNotes' }
+
+" Python
+Plug 'klen/python-mode', { 'for': 'python' }
+Plug 'alfredodeza/pytest.vim', { 'for': 'python' }
 
 " Spell check
 Plug 'mateusbraga/vim-spell-pt-br'

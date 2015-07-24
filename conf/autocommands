@@ -6,7 +6,7 @@ augroup END
 
 augroup git_commit_message
 	autocmd!
-	autocmd BufReadPre */COMMIT_EDITMSG setlocal spell spelllang=pt_br
+	autocmd BufReadPre */COMMIT_EDITMSG setlocal spell spelllang=en
 				\| setlocal textwidth=0
 				\| iabbrev <buffer> Gbnm <C-r>=system("git branch --no-color \| grep --color=never '*' \| sed -e 's/[^A-Za-z0-9-]//g'")<CR><Up><End>
 				\| iabbrev <buffer> Pnm (Erick Pintor /)<Left>
@@ -39,6 +39,15 @@ augroup javascript
 	autocmd FileType javascript setlocal textwidth=150
 				\| iabbrev <buffer> fn function
 				\| iabbrev <buffer> cl console.log
+augroup END
+
+augroup python
+	autocmd!
+	autocmd FileType python setlocal textwidth=79
+                \| noremap <buffer> <leader>r :w<CR>:pyfile %<CR>
+                \| noremap <buffer> <leader>t :w<CR>:Pytest file<CR>
+                \| iabbrev <buffer> #-- # -*- coding: utf-8 -*-
+                \| iabbrev <buffer> ifmain <C-o>0if __name__ == '__main__':
 augroup END
 
 augroup textwidth_per_filetype
