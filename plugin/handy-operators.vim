@@ -1,8 +1,8 @@
-" Ack {{{
-noremap  <Leader>a :set operatorfunc=<SID>AckOperator<CR>g@
-vnoremap <Leader>a :<C-u>call <SID>AckOperator(visualmode())<CR>
+" Ag {{{
+noremap  <Leader>a :set operatorfunc=<SID>AgOperator<CR>g@
+vnoremap <Leader>a :<C-u>call <SID>AgOperator(visualmode())<CR>
 
-function! s:AckOperator(type)
+function! s:AgOperator(type)
 	let word = <SID>GetWord(a:type)
 	if word == ''
 		return
@@ -11,7 +11,7 @@ function! s:AckOperator(type)
 	silent set hlsearch
 	let @/= '\C' . word
 
-	silent execute "Ack " . shellescape(word) . " . --ignore-file='is:tags'"
+	silent execute "Ag '" . shellescape(word) . "'"
 	redraw
 endfunction
 " }}}
