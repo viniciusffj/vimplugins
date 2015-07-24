@@ -32,6 +32,9 @@ Plug 'vim-scripts/vim-auto-save', { 'on': [ 'RecentNotes', 'AutoSaveToggle' ] }
 Plug 'xolox/vim-misc', { 'on': 'RecentNotes' }
 Plug 'xolox/vim-notes', { 'on': 'RecentNotes' }
 
+" Clojure
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+
 " Python
 Plug 'klen/python-mode', { 'for': 'python' }
 Plug 'alfredodeza/pytest.vim', { 'for': 'python' }
