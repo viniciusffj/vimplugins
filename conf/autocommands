@@ -45,7 +45,8 @@ augroup python
 	autocmd!
 	autocmd FileType python setlocal textwidth=79
                 \| noremap <buffer> <leader>r :w<CR>:pyfile %<CR>
-                \| noremap <buffer> <leader>t :w<CR>:Pytest file<CR>
+                \| noremap <buffer> <leader>t :w<CR>:Pytest method<CR>
+                \| noremap <buffer> <leader>T :w<CR>:Pytest file<CR>
                 \| iabbrev <buffer> #-- # -*- coding: utf-8 -*-
                 \| iabbrev <buffer> ifmain <C-o>0if __name__ == '__main__':
 augroup END
