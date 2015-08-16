@@ -20,6 +20,7 @@ set ttimeout
 set noerrorbells
 set visualbell
 set expandtab
+set list
 
 set ttimeoutlen=5
 set complete=.,w,b,u,t
