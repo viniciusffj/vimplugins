@@ -17,6 +17,7 @@ Plug 'scrooloose/nerdtree', { 'on': [ 'NERDTree', 'NERDTreeToggle' ] }
 Plug 'rking/ag.vim', { 'on': 'Ag' }
 
 " UI
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'tomasr/molokai'
 Plug 'bling/vim-airline'
 Plug 'inside/vim-search-pulse'
