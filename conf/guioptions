@@ -4,10 +4,7 @@ set t_Co=256
 set background=dark
 set listchars=tab:\|\ ,eol:¬,extends:❯,precedes:❮,trail:⌴
 set showbreak=↪\ 
-
 set colorcolumn=+1
-highlight ColorColumn ctermbg=234
-highlight TabLineFill ctermfg=Black
 
 let g:airline_theme='monochrome'
 let g:airline_left_sep = '▶'
