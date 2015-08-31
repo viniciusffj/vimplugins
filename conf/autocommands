@@ -1,49 +1,49 @@
 augroup filetype_vim
-	autocmd!
-	autocmd FileType vim setlocal foldmethod=marker
-	autocmd BufWritePost */.vim/** source $MYVIMRC
+    autocmd!
+    autocmd FileType vim setlocal foldmethod=marker
+    autocmd BufWritePost */.vim/** source $MYVIMRC
 augroup END
 
 augroup git_commit_message
-	autocmd!
-	autocmd BufReadPre */COMMIT_EDITMSG setlocal spell spelllang=en
-				\| setlocal textwidth=0
-				\| iabbrev <buffer> Gbnm <C-r>=system("git branch --no-color \| grep --color=never '*' \| sed -e 's/[^A-Za-z0-9-]//g'")<CR><Up><End>
-				\| iabbrev <buffer> Pnm (Erick Pintor /)<Left>
-				\| iabbrev <buffer> Dnm [Erick Pintor]<Left>
-				\| iabbrev <buffer> wpp (WIP)
-				\| iabbrev <buffer> sci [skip ci]
-				\| startinsert!
+    autocmd!
+    autocmd BufReadPre */COMMIT_EDITMSG setlocal spell spelllang=en
+                \| setlocal textwidth=0
+                \| iabbrev <buffer> Gbnm <C-r>=system("git branch --no-color \| grep --color=never '*' \| sed -e 's/[^A-Za-z0-9-]//g'")<CR><Up><End>
+                \| iabbrev <buffer> Pnm (Erick Pintor /)<Left>
+                \| iabbrev <buffer> Dnm [Erick Pintor]<Left>
+                \| iabbrev <buffer> wpp (WIP)
+                \| iabbrev <buffer> sci [skip ci]
+                \| startinsert!
 augroup END
 
 augroup email_messages
-	autocmd!
-	autocmd FileType mail setlocal syntax=mail enc=utf-8 spell spelllang=pt_br nonumber
-				\| iabbrev <buffer> Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
-				\| iabbrev <buffer> Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
-				\| iabbrev <buffer> Pnm Erick Pintor and paring.<C-o>F<Space>
-				\| Limelight
-				\| execute "normal! O"
-				\| startinsert!
+    autocmd!
+    autocmd FileType mail setlocal syntax=mail enc=utf-8 spell spelllang=pt_br nonumber
+                \| iabbrev <buffer> Psig ---<CR>Erick Pintor <erickpintor@gmail.com><CR>Consultant / Developer
+                \| iabbrev <buffer> Tsig ---<CR>Erick Pintor <erickpintor@thoughtworks.com><CR>Consultant / Developer @ ThoughtWorks Brazil
+                \| iabbrev <buffer> Pnm Erick Pintor and paring.<C-o>F<Space>
+                \| Limelight
+                \| execute "normal! O"
+                \| startinsert!
 augroup END
 
 augroup ruby
-	autocmd!
-	autocmd FileType ruby setlocal textwidth=150 tabstop=2 shiftwidth=2
-				\| iabbrev <buffer> pry require 'pry-debugger'; binding.pry
-				\| iabbrev <buffer> gpry gem 'pry-debugger'
+    autocmd!
+    autocmd FileType ruby setlocal textwidth=150 tabstop=2 shiftwidth=2
+                \| iabbrev <buffer> pry require 'pry-debugger'; binding.pry
+                \| iabbrev <buffer> gpry gem 'pry-debugger'
 augroup END
 
 augroup javascript
-	autocmd!
-	autocmd FileType javascript setlocal textwidth=150
-				\| iabbrev <buffer> fn function
-				\| iabbrev <buffer> cl console.log
+    autocmd!
+    autocmd FileType javascript setlocal textwidth=150
+                \| iabbrev <buffer> fn function
+                \| iabbrev <buffer> cl console.log
 augroup END
 
 augroup python
-	autocmd!
-	autocmd FileType python setlocal textwidth=79
+    autocmd!
+    autocmd FileType python setlocal textwidth=79
                 \| noremap <buffer> <leader>r :w<CR>:pyfile %<CR>
                 \| noremap <buffer> <leader>t :w<CR>:Pytest method<CR>
                 \| noremap <buffer> <leader>T :w<CR>:Pytest file<CR>
@@ -52,10 +52,10 @@ augroup python
 augroup END
 
 augroup textwidth_per_filetype
-	autocmd!
-	autocmd FileType vim  setlocal textwidth=150
-	autocmd FileType sh   setlocal textwidth=150
-	autocmd FileType java setlocal textwidth=120
+    autocmd!
+    autocmd FileType vim  setlocal textwidth=150
+    autocmd FileType sh   setlocal textwidth=150
+    autocmd FileType java setlocal textwidth=120
 augroup END
 
 " vim: ft=vim
