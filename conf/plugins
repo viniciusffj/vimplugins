@@ -25,8 +25,9 @@ Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }
 
 " Syntax
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
-Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'tfnico/vim-gradle', { 'for': 'groovy' }
+Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
+Plug 'gregspurrier/vim-midje', { 'for': 'clojure' }
 
 " Notes
 Plug 'vim-scripts/vim-auto-save', { 'on': [ 'RecentNotes', 'AutoSaveToggle' ] }
@@ -35,6 +36,7 @@ Plug 'xolox/vim-notes', { 'on': 'RecentNotes' }
 
 " Clojure
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'typedclojure/vim-typedclojure', { 'for': 'clojure' }
 
 " Python
 Plug 'klen/python-mode', { 'for': 'python' }
