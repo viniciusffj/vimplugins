@@ -22,8 +22,6 @@ noremap               <Leader>O                     m`O<Esc>``
 nnoremap              Q                             @q
 vnoremap              Q                             :norm @q<CR>
 
-noremap               <F1>                          <Esc>
-inoremap              <F1>                          <Esc>
 noremap               <F4>                          :NERDTreeToggle<CR>
 noremap               <F12>                         :SyntasticToggleMode<CR>
 
