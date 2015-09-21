@@ -42,6 +42,9 @@ Plug 'typedclojure/vim-typedclojure', { 'for': 'clojure' }
 Plug 'klen/python-mode', { 'for': 'python' }
 Plug 'alfredodeza/pytest.vim', { 'for': 'python' }
 
+" Idris
+Plug 'idris-hackers/idris-vim', { 'for': 'idris' }
+
 " Spell check
 Plug 'mateusbraga/vim-spell-pt-br'
 
