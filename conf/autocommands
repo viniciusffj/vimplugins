@@ -36,9 +36,9 @@ augroup END
 
 augroup javascript
     autocmd!
-    autocmd FileType javascript setlocal textwidth=150
+    autocmd FileType javascript setlocal textwidth=150 tabstop=2 shiftwidth=2
                 \| iabbrev <buffer> fn function
-                \| iabbrev <buffer> cl console.log
+                \| iabbrev <buffer> cl window.console.log
 augroup END
 
 augroup python
