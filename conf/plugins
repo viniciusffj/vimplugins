@@ -7,46 +7,41 @@ Plug 'vim-scripts/repeat.vim'
 Plug 'vim-scripts/CmdlineComplete'
 Plug 'tpope/vim-surround'
 Plug 'ervandew/supertab'
-
-" Tmux integration
-Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby', 'javascript', 'python' ] }
+Plug 'mateusbraga/vim-spell-pt-br'
 
 " File navigation
 Plug 'vim-scripts/ctrlp.vim'
 Plug 'scrooloose/nerdtree', { 'on': [ 'NERDTree', 'NERDTreeToggle' ] }
 Plug 'rking/ag.vim', { 'on': 'Ag' }
 
-" UI
-Plug 'NLKNguyen/papercolor-theme'
-Plug 'tomasr/molokai'
-Plug 'bling/vim-airline'
-Plug 'inside/vim-search-pulse'
-Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }
-
-" Syntax
-Plug 'tpope/vim-markdown', { 'for': 'markdown' }
-Plug 'tfnico/vim-gradle', { 'for': 'groovy' }
-Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
-Plug 'gregspurrier/vim-midje', { 'for': 'clojure' }
+" Tmux integration
+Plug 'jpalardy/vim-slime', { 'for': [ 'clojure', 'ruby', 'javascript', 'python' ] }
 
 " Notes
 Plug 'vim-scripts/vim-auto-save', { 'on': [ 'RecentNotes', 'AutoSaveToggle' ] }
 Plug 'xolox/vim-misc', { 'on': 'RecentNotes' }
 Plug 'xolox/vim-notes', { 'on': 'RecentNotes' }
 
+" UI
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'bling/vim-airline'
+Plug 'inside/vim-search-pulse'
+Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }
+
+" Languages
+Plug 'tpope/vim-markdown', { 'for': 'markdown' }
+Plug 'tfnico/vim-gradle', { 'for': 'groovy' }
+Plug 'idris-hackers/idris-vim', { 'for': 'idris' }
+
 " Clojure
+Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
+Plug 'gregspurrier/vim-midje', { 'for': 'clojure' }
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'typedclojure/vim-typedclojure', { 'for': 'clojure' }
 
 " Python
 Plug 'klen/python-mode', { 'for': 'python' }
 Plug 'alfredodeza/pytest.vim', { 'for': 'python' }
-
-" Idris
-Plug 'idris-hackers/idris-vim', { 'for': 'idris' }
-
-" Spell check
-Plug 'mateusbraga/vim-spell-pt-br'
 
 call plug#end()
 
