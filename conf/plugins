@@ -32,6 +32,7 @@ Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
 Plug 'tfnico/vim-gradle', { 'for': 'groovy' }
 Plug 'idris-hackers/idris-vim', { 'for': 'idris' }
+Plug 'mustache/vim-mustache-handlebars', { 'for': 'html.handlebars' }
 
 " Clojure
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
