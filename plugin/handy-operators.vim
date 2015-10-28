@@ -16,6 +16,21 @@ function! s:AgOperator(type)
 endfunction
 " }}}
 
+" Spell lang cycle {{{
+noremap <Leader>S :set spell!<CR>
+noremap <silent><F11> :call CycleLang(1)<CR>
+noremap <silent><F10> :call CycleLang(-1)<CR>
+
+fun! CycleLang(inc)
+    let langs = ['en_us', 'pt_br']
+
+    let i = index(langs, &spl)
+    let &spl = langs[(i+a:inc)%len(langs)]
+
+    echo 'Using ' . &spl . ' as spellcheck language'
+endfun
+" }}}
+
 " Common functions {{{
 function! s:GetWord(type)
     let old_clipboard = @@

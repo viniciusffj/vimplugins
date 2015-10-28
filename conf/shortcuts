@@ -33,6 +33,5 @@ noremap               <Leader>W                     :%s/\v\s+$//<CR>
 noremap               <Leader>w                     :set wrap!<CR>
 noremap               <Leader>C                     :!ctags -R .<CR>
 noremap               <Leader>x                     :Explore<CR>
-noremap               <Leader>S                     :set spell!<CR>
 
 " vim: ft=vim
