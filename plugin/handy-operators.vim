@@ -20,6 +20,8 @@ endfunction
 noremap <Leader>S :set spell!<CR>
 noremap <silent><F11> :call CycleLang(1)<CR>
 noremap <silent><F10> :call CycleLang(-1)<CR>
+inoremap <silent><F11> <C-o>:call CycleLang(1)<CR>
+inoremap <silent><F10> <C-o>:call CycleLang(-1)<CR>
 
 fun! CycleLang(inc)
     let langs = ['en_us', 'pt_br']
