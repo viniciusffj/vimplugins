@@ -9,4 +9,3 @@ source $HOME/.vim/conf/skeletons
 " $HOME/.vim/autoload/plug.vim
 " $HOME/.vim/plugin/handy-operators.vim
 " $HOME/.vim/scripts/notes.vim
-" $HOME/.vim/scripts/presentation.vim
