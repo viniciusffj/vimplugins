@@ -45,6 +45,9 @@ Plug 'typedclojure/vim-typedclojure', { 'for': 'clojure' }
 Plug 'klen/python-mode', { 'for': 'python' }
 Plug 'alfredodeza/pytest.vim', { 'for': 'python' }
 
+" HTML
+Plug 'mattn/emmet-vim'
+
 call plug#end()
 
 " vim: ft=vim

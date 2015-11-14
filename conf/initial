@@ -40,4 +40,5 @@ let g:slime_target = 'tmux'
 let g:airline#extensions#bufferline#enabled = 0
 let g:vim_search_pulse_mode = 'pattern'
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
+let g:user_emmet_leader_key='<C-M>'
 " vim: ft=vim
