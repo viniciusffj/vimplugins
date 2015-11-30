@@ -11,6 +11,7 @@ noremap               ]f                            :cnfile<CR>
 noremap               [f                            :cpfile<CR>
 noremap               ]b                            :bn<CR>
 noremap               [b                            :bp<CR>
+noremap               qb                              :bp<bar>sp<bar>bn<bar>bd<CR>
 
 noremap               <Leader>y                     "+y
 noremap               <Leader>p                     "+p
